@@ -1,0 +1,2329 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN">
+<TEI.2 lang=en>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>The Luzumiyat of Abu&apos;l-Ala</title>
+<author key="Al-Maarri, Abu&apos;l-Ala" ref="https://viaf.org/viaf/68941158">Abu&apos;l-Ala Al-Maarri (973&ndash;1057)</author>
+<respStmt><resp>Translation</resp> <name key="Rihani, Ameen Fares" ref="https://viaf.org/viaf/17374300">Ameen Fares Rihani (1876&ndash;1940)</name></respStmt>
+<respStmt><resp>Transcription</resp> <name>Jeroen Hellingman</name></respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>Project Gutenberg</publisher>
+<pubPlace>Urbana, Illinois, USA.</pubPlace>
+<idno type=LCCN>#####</idno>
+<idno type=OLN>#####</idno>
+<idno type=OLW>#####</idno>
+<idno type=OCLC>#####</idno>
+<idno type=LibThing>#####</idno>
+<idno type=PGclearance>20150830121644almaarri</idno>
+<idno type=PGDPProjectId>projectID55e42fabacfb1</idno>
+<idno type=epub-id>urn:uuid:baeacaf0-8f7a-4250-987b-aa124d414f2f</idno>
+<idno type=PGnum>50457</idno>
+<date>2015-11-14</date>
+<availability>
+<p>&availability.en;
+
+<p>This digital edition is dedicated to the people of Syria, in the hope that the seeds of rationality will once again find a fertile soil in your country.
+
+<p>This eBook is produced by the Online Distributed Proofreading Team at <xref url="http://www.pgdp.net/">www.pgdp.net</xref>.
+
+<p>Scans for this book are available from the Internet Archive (copy <xref url="https://archive.org/details/luzumiyatabulal00rihagoog">1</xref>).
+
+</availability>
+</publicationStmt>
+<notesStmt>
+    <note type="Description">#####<!--A short description of this document.--></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<author>Abu&apos;l-Ala Al-Maarri</author>
+<title>The Luzumiyat of Abu&apos;l-Ala</title>
+<date>1920</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<p>
+
+</encodingDesc>
+<profileDesc>
+    <langUsage>
+        <language id=en>English</language>
+        <language id=en-US>English (United States)</language>
+        <language id=en-UK>English (United Kingdom)</language>
+        <language id=de>German</language>
+        <language id=fr>French</language>
+        <language id=la>Latin</language>
+        <language id=ar-Latn>Arabic (Latin transcription)</language>
+    </langUsage>
+    <textClass>
+        <keywords>
+            <list>
+                <item>#####</item>
+            </list>
+        </keywords>
+    </textClass>
+</profileDesc>
+<revisionDesc>
+    <list>
+        <item>2015-11-08 Started.
+    </list>
+</revisionDesc>
+</teiHeader>
+<text rend="stylesheet(style/classic.css)">
+<front id=frontmatter>
+<div1 id=cover type=Cover>
+
+
+<p><figure id=cover-image rend="image(images/new-cover.jpg)">
+<figDesc>Newly Designed Front Cover.</figDesc> 
+</figure>
+
+
+
+
+<pb n=1>
+<div1 id=french type=FrenchTitle>
+
+
+
+<p rend="align(center)">THE LUZUMIYAT OF ABU&apos;L-ALA
+
+
+
+
+<pb n=3>
+<div1 id=dedication type=Dedication>
+
+
+
+<p rend="align(center)">TO HIS ROYAL HIGHNESS
+<lb><hi rend=bold>EMIR FEISAL</hi>
+<lb>IN WHOM ARE CENTRED
+<lb>THE HOPES AND ASPIRATIONS
+<lb>OF THE SYRIAN PEOPLE
+<lb>FOR A UNITED SYRIA
+<lb>THIS BOOK
+<lb>IS DEDICATED
+
+
+
+
+<pb n=5>
+<titlePage>
+<docTitle>
+<titlePart>THE LUZUMIYAT
+<lb>OF
+<lb>ABU&apos;L-ALA</titlePart>
+
+<titlePart type=sub>Selected from his
+<lb><hi>Luzum ma la Yalzam and Suct uz-Zand</hi>
+<lb>and first rendered into English</titlePart>
+</docTitle>
+
+<byline>By
+<lb><docAuthor>AMEEN RIHANI</docAuthor>
+<lb>Author of
+<lb><hi>The Book of Khaled</hi>
+</byline>
+
+<docImprint>
+(Second Edition)
+
+<lb>NEW YORK
+<lb>JAMES T. WHITE &amp; CO.,
+<lb><docDate>1920</docDate>
+</docImprint>
+</titlePage>
+
+
+
+<pb n=6>
+<div1 id=review type=Review>
+
+
+
+<p>&ldquo;His poems generally known as the Luzumiyat arrest attention by their boldness and originality as well as by the sombre and earnest tone which pervades them.&rdquo;&mdash;<hi>Raynold A. Nicholson: A History of the Arabs.</hi>
+
+
+<p>&ldquo;Abu&apos;l-Ala is a poet many centuries ahead of his time.&rdquo;&mdash;<hi>Von Kremer.</hi>
+
+
+<p rend="align(center)">COPYRIGHTED 1918 BY
+<lb>JAMES T. WHITE &amp; CO.
+
+
+
+<pb n=7>
+<div1 id=dedication2 type=Dedication>
+<head>TO ABU&apos;L-ALA</head>
+
+
+<lg type=Group><lg>
+<l>In thy fountained peristyles of Reason
+    <l rend="indent(2)">Glows the light and flame of desert noons;
+<l>And in the cloister of thy pensive Fancy
+    <l rend="indent(2)">Wisdom burns the spikenard of her moons.
+</lg>
+
+<lg>
+<l>Closed by Fate the portals of the dwelling
+    <l rend="indent(2)">Of thy sight, the light thus inward flowed;
+<l>And on the shoulders of the crouching Darkness
+    <l rend="indent(2)">Thou hast risen to the highest road.
+</lg>
+
+<lg>
+<l>I have seen thee walking with Canopus
+    <l rend="indent(2)">Through the stellar spaces of the night;
+<l>I have heard thee asking thy Companion,
+    <l rend="indent(2)">&ldquo;Where be now my staff, and where thy light?&rdquo;
+</lg>
+
+<lg>
+<l>Abu&apos;l-Ala, in the heaving darkness,
+    <l rend="indent(2)">Didst thou not the whisperings hear of me?
+<l>In thy star-lit wilderness, my Brother,
+    <l rend="indent(2)">Didst thou not a burdened shadow see?
+</lg>
+
+<pb n=8><lg>
+<l>I have walked and I have slept beside thee,
+    <l rend="indent(2)">I have laughed and I have wept as well;
+<l>I have heard the voices of thy silence
+    <l rend="indent(2)">Melting in thy Jannat and thy hell.
+</lg>
+
+<lg>
+<l>I remember, too, that once the Saki
+    <l rend="indent(2)">Filled the antique cup and gave it thee;
+<l>Now, filled with the treasures of thy wisdom,
+    <l rend="indent(2)">Thou dost pass that very cup to me.
+</lg>
+
+<lg>
+<l>By the God of thee, my Syrian Brother,
+    <l rend="indent(2)">Which is best, the Saki&apos;s cup or thine?
+<l>Which the mystery divine uncovers&mdash;
+    <l rend="indent(2)">If the cover covers aught divine.
+</lg>
+
+<lg>
+<l>And if it lies hid in the soul of silence
+    <l rend="indent(2)">Like incense in the dust of ambergris,
+<l>Wouldst thou burn it to perfume the terror
+    <l rend="indent(2)">Of the caverns of the dried-up seas?
+</lg>
+
+<lg>
+<l>Where&apos;er it be, Oh! let it be, my Brother.&mdash;
+    <l rend="indent(2)">Though &ldquo;thrice-imprisoned,&rdquo;<ref target=note.i type=noteref>[###]</ref> thou hast forged us more
+<l>Solid weapons for the life-long battle
+    <l rend="indent(2)">Than all the Heaven-taught Armorers of yore.
+</lg>
+
+<pb n=9><lg>
+<l>&ldquo;Thrice-imprisoned,&rdquo; thou wert e&apos;en as mighty,
+    <l rend="indent(2)">In the boundless kingdom of the mind,
+<l>As the whirlwind that compels the ocean,
+    <l rend="indent(2)">As the thunder that compels the wind.
+</lg>
+
+<lg>
+<l>&ldquo;Thrice-imprisoned,&rdquo; thou wert freer truly
+    <l rend="indent(2)">Than the liegeless Arab on his mare,&mdash;
+<l>Freer than the bearers of the sceptre,&mdash;
+    <l rend="indent(2)">Freer than the winged lords of the air.
+</lg>
+
+<lg>
+<l>&ldquo;Thrice-imprisoned,&rdquo; thou hast sung of freedom
+    <l rend="indent(2)">As but a few of all her heroes can;
+<l>Thou hast undermined the triple prison
+    <l rend="indent(2)">Of the mind and heart and soul of man.
+</lg>
+
+<lg>
+<l>In thy fountained peristyles of Reason
+    <l rend="indent(2)">Glows the light and flame of desert noons;
+<l>And in the cloister of thy pensive Fancy
+    <l rend="indent(2)">Wisdom burns the spikenard of her moons.
+</lg></lg>
+
+<p rend="class(signed)"><hi>Ameen Rihani.</hi>
+
+
+
+
+<pb n=11>
+<div1 id=preface type=Preface>
+<head>PREFACE.</head>
+
+
+<p>When Christendom was groping amid the superstitions of the Dark Ages, and the Norsemen were ravaging the western part of Europe, and the princes of Islam were cutting each other&apos;s throats in the name of Allah and his Prophet, Abu&apos;l-Ala&apos;l-Ma&apos;arri was waging his bloodless war against the follies and evils of his age. He attacked the superstitions and false traditions of law and religion, proclaiming the supremacy of the mind; he hurled his trenchant invectives at the tyranny, the bigotry, and the quackery of his times, asserting the supremacy of the soul; he held the standard of reason high above that of authority, fighting to the end the battle of the human intellect. An intransigeant with the exquisite mind of a sage and scholar, his weapons were never idle. But he was, above all, a poet; for when he stood before the eternal mystery of Life and Death, he sheathed his sword and murmured a prayer.
+
+<p>Abu&apos;l-Ala&apos;l-Ma&apos;arri,<note n=a><p>My learned friend, Count E. de Mulinen, called my attention to the work of Von Kremer on Abu&apos;l-Ala. And I have seen copies of a certain German Asiatic Review in which were published translations, made by that eminent Orientalist, of many poems from the Luzumiyat. He speaks of Abu&apos;l-Ala as one of the greatest moralists of all times, whose profound genius anticipated much that is commonly attributed to the so-called modern spirit of <corr sic=enlightment>enlightenment</corr>.
+
+<p>Professor D. S. Margoliouth has also translated into English the Letters of Abu&apos;l-Ala, which were published with the Arabic Text at the Clarendon Press, Oxford, 1898. Also Professor Raynold A. Nicholson, in his work, &ldquo;A Literary History of the Arabs,&rdquo; discusses the poet at length and renders into English some poems from the Luzumiyat. A work was published by Charles Carrington, Paris, 1904, under the title, &ldquo;<foreign lang=fr>Un Précurseur d&apos;Omar Khayyam, Le Poéte Aveugle: Extraits de Poémes et de Lettres d&apos;Abu&apos;l-Ala al-Ma&apos;arri.</foreign>&rdquo; And another, &ldquo;The Diwan of Abu&apos;l-Ala,&rdquo; done into English by Henry Baerlein, who must have helped himself freely to the Quatrains of Von Kremer.</note> the Lucretius of Islam, the Voltaire of the East, was born in the spring of the year 973 A.D., in the obscure village of Ma&apos;arrah,<note n=b>For a picturesque description of the squalidness and sordidness of Ma&apos;arrah and its people, see Letter XX of &ldquo;The Letters of Abu&apos;l-Ala,&rdquo; Oxford Edition.</note> <pb n=12>which is about eighteen hours&apos; journey south of Halab (Aleppo). And instead of Ahmad ibn Abdallah ibn Sulaiman ut-Tanukhi (of the tribe of Tanukh), he was called Abu&apos;l-Ala (the Father of the Sublime), by which patronymic of distinction he is popularly known throughout the Arabic speaking world.
+
+<p>When a boy, Abu&apos;l-Ala was instructed by his father; and subsequently he was sent to Halab, where he pursued his studies under the tutelage of the grammarian Muhammad ibn Abdallah ibn us-Sad. His literary proclivity was evinced in his boyhood, and he wrote verse, we are told, before he was ten. Of these juvenile pieces, however, nothing was preserved.
+
+<p>He was about five years old when he fell a victim to small-pox and almost lost his sight from it. But a weakness in his eyes continued to trouble him and he became, in middle age, I presume, totally blind.<note n=c>When he visited Baghdad he was about thirty-seven years of age. And when he went to attend <pb n=30>a lecture there by one of the leading scholars, he was called by the lecturer, <hi lang=ar-Latn>istabl</hi>, which is Syrian slang for blind.</note> Some of his biographers would have us believe he was born blind; others state that he completely lost his sight when he was attacked by the virulent disease; and a few intimate that he could see slightly at least with the right eye. As to whether or not he was blind when he was sent to Halab to pursue his studies, his biographers do not agree. My theory, based on the careful perusal of his poems and on a statement advanced by one of his biographers,<note n=d>&ldquo;He was four years of age when he had the attack of small-pox. The sight of his left eye was entirely lost and the eyeball of his right had turned white. Al-Hafiz us-Silafi relates: &lsquo;Abu Muhammad Abdallah told me that he visited him (Abu&apos;l-Ala) once with his uncle and found him sitting on an old hair matting. He was very old, and the disease that attacked him in his boyhood had left its deep traces on his emaciated face. He bade me come near him and blessed me as he placed his hand on my head. I was a boy then, and I can picture him before me now. I looked into his eyes and remarked how the one was horribly protruding, and the other, buried in its socket, could barely be seen.&rsquo;&rdquo;&mdash;Ibn Khillikan.</note> is that <pb n=13>he lost his sight gradually, and total blindness must have come upon him either in his youth or his middle age.<note n=e><p>&ldquo;How long he retained any sort of vision is not certain. His frequent references in his writings to stars, flowers, and the forms of the Arabic letters imply that he could see a little at least some years after this calamity.<corr>&rdquo;</corr>&mdash;D. S. Margoliouth: The Letters of Abu&apos;l-Ala.
+
+<p>&ldquo;He used to play chess and <hi>nard</hi>.&rdquo;&mdash;Safadi.</note> Were we to believe that he was born blind or that he suffered the complete loss of his sight in his boyhood, we should be at a loss to know, not how he wrote his books, for that was done by dictation; not how he taught his pupils, for that was done by lectures; but how he himself was taught in the absence in those days of a regular system of instruction for the blind.
+
+<p>In 1010 A.D. he visited Baghdad, the centre of learning and intelligence and the capital of the Abbaside Khalifs, where he passed about two years and became acquainted with most of the literary men of the age.<note n=f><p>For an interesting account of Literary Society in Baghdad see Renan&apos;s &ldquo;Islam and Science&rdquo;; also the Biography to the Letters of Abu&apos;l-Ala. Prof. Margoliouth, though not unfair in his judgment of the poet, is unnecessarily captious at times. He would seem partial to the suffrage of orthodox Mohammedans with regard to Abu&apos;l-Ala&apos;s unorthodox religious views. But they have a reason, these ulama, for endeavoring to keep a genius like Abu&apos;l-Ala within the pale of belief. Which reason, let us hope, has no claim on Prof. Margoliouth. And in his attempt to depreciate Abu&apos;l-Ala as a disinterested <pb n=31>and independent scholar and poet, he does not escape the inconsistency which often follows in the wake of cavil. Read this, for instance:
+
+
+    <q rend=block><p>&ldquo;Like many of those who have failed to secure material prosperity, he found comfort in a system which flatters the vanity of those who have not succeeded by teaching that success is not worth attaining.&rdquo;</q>
+
+
+<p>And this, not on the same page perhaps, but close to it:
+
+
+    <q rend=block><p>&ldquo;For though other roads towards obtaining the means of supporting himself at Baghdad have been open to him, <hi>that which he refused to follow</hi> (the profession of an encomiast, <hi>i. e.</hi> a sycophant, a toady) was the most certain.&rdquo;</q></note> He attended the lectures and the readings of the leading doctors and grammarians, meeting with a civil reception at the hand of most of them.
+
+<p>He also journeyed to Tripoli,<note n=g>Biography of Abu&apos;l-Ala by Adh-Dhahabi.</note> which boasted, in those days, of many public libraries; and, stopping at Ladhekiyah, he lodged in a monastery where he met and befriended a very learned monk. They discussed theology and metaphysics, <corr sic=disgressing>digressing</corr> now and then into the profane. Indeed, the skepticism which permeates Abu&apos;l-Ala&apos;s writings must have been nursed in that convent by both the monk and the poet.
+
+<pb n=14><p>These are virtually the only data extant showing the various sources of Abu&apos;l-Ala&apos;s learning; but to one endowed with a keen perception, a powerful intellect, a prodigious memory, together with strong innate literary predilections, they seem sufficient. He was especially noted for the extraordinary memory he possessed; and around this our Arab biographers and historians weave a thick net of anecdotes, or rather fables. I have no doubt that one with such a prodigious memory could retain in a few minutes what the average person could not; but when we are told that Abu&apos;l-Ala once heard one of his pupils speaking with a friend in a foreign tongue, and repeated there and then the long conversation, word for word, without having the slightest idea of its meaning, we are disposed to be skeptical. Many such anecdotes are recorded and quoted by his Arab biographers without as much as intimating a single doubt.<note n=h>&ldquo;The Letters, which abound in quotations, enable us to gauge the power of his memory better than these wonder-loving narrators.&rdquo;&mdash;D. S. Margoliouth.</note> The fact that he was blind partly explains the abnormal development of his memory.
+
+<p>His career as poet and scholar dates from the time he returned from Baghdad. This, so far as is known, was the last journey he made; and his home became henceforth his earthly prison. He calls himself &ldquo;A double-fettered Captive,&rdquo;<note n=i id=note.i>In one of his poems he speaks of three prisons, his body being the third. Here is Professor Nicholson&apos;s translation:
+
+<q><text><body><lg>
+    <l>Methink I am thrice-imprisoned&mdash;ask not me
+    <l>Of news that need no telling&mdash;
+    <l>By loss of sight, confinement in my house,
+    <l>And this vile body for my spirit&apos;s dwelling.
+</lg></body></text></q></note> his solitude being the one and his blindness the other. Like most of the <pb n=15>scholars of his age, in the absence of regular educational institutions, with perhaps one or two exceptions, he had to devote a part of his time to the large number of pupils that flocked to Ma&apos;arrah from all parts of Asia Minor, Arabia, and India. Aside from this, he dictated to his numerous amanuenses on every possible and known subject. He is not only a poet of the first rank, but an essayist, a literary critic, and a mathematician as well. Everything he wrote was transcribed by many of his admirers, as was the fashion then, and thus circulated far and near. Nothing, however, was preserved but his Diwans, his Letters and the Epistle of Forgiveness,<note n=j>Also his Commentary on the works of the poet Al-Mutanabbi.</note> of which I shall yet have occasion to speak.<note n=k>Adh-Dhahabi gives the titles of forty-eight of his works, to which Safadi adds fourteen. A literary baggage of considerable bulk, had not most of it <pb n=32>perished when the Crusaders took Ma&apos;arrah in 1098. Now, the Luzumiyat, the Letters, Suct uz-Zand and the Epistle of Forgiveness can be obtained in printed form.</note>
+
+<p>His reputation as poet and scholar had now, after his return from Baghdad, overleaped the horizons, as one writer has it. Honors were conferred upon him successively by the rulers and the scholars of his age. His many noted admirers were in constant communication with him. He was now looked upon as &ldquo;the master of the learned, the chief of the wise, and the sole monarch of the bards of his century.&rdquo; Ma&apos;arrah<note n=l>&ldquo;What he says of Al-Maghribi in the First Letter became literally true of himself: &lsquo;As Sinai derives its fame from Moses and the Stone from Abraham, so Ma&apos;arrah is from this time (after his return from Baghdad) known by him.&rsquo;&rdquo;&mdash;D. S. Margoliouth.</note> became the Mecca of every literary aspirant; ambitious young scholars came there for <corr sic=enlightment>enlightenment</corr> and inspiration. And Abu&apos;l-Ala, although a pessimist, received them with his wonted kindness <pb n=16>and courtesy. He imparted to them what he knew, and told them candidly what he would not teach, since, unlike other philosophers, he was not able to grasp the truth, nor compass the smallest of the mysteries of creation. In his latter days, youthful admirers sought his blessing, which he, as the childless father of all, graciously conferred, but with no self-assumed spiritual or temporal authority.
+
+<p>For thirty years he remained a vegetarian, living the life of an ascetic.<note n=m>Even before he visited Baghdad he had a pension of thirty dinars (about $100), half of which he paid to his servant, and the other half was sufficient to secure for him the necessaries of life. &ldquo;He lived on lentils and figs,&rdquo; says Adh-Dhahabi; &ldquo;he slept on a felt mattress; he wore nothing but cotton garments; and his dwelling was furnished with a straw matting.&rdquo;</note> This mode of living led his enemies to accuse him of renouncing Islam and embracing Brahminism, one of the tenets of which forbids the slaughter of animals. The accusation was rather sustained by the dispassionate attitude he held towards it, and, furthermore, by his vehement denunciation of the barbarous practice of killing animals for food or for sport.
+
+<p>Most of the censors of Abu&apos;l-Ala were either spurred to their task by bigotry or animated by jealousy and ignorance. They held him up to ridicule and opprobrium, and such epithets as heretic, atheist, renegade, etc., were freely applied. But he was supremely indifferent to them all,<note n=n><p>We have the following from Adh-Dhahabi:
+
+<p>&ldquo;One of these critics came one day to Abu&apos;l-Ala and relating the conversation himself said, &lsquo;What is it that is quoted and said about you?&rsquo; I asked.
+
+<p>&lsquo;It is false; they are jealous of me,&rsquo; he replied.
+
+<p>&lsquo;And what have you to incite their jealousy? You have left for them both this world and the other.&rsquo;
+
+<p>&lsquo;And the other?&rsquo; murmured the poet, questioning, ruminating. &lsquo;And the other, too?&rsquo;&rdquo;</note> and never would he cross swords with any particular individual; he attacked the false doctrines they were teaching, turning a deaf ear to the virulent vituperations they hurled upon him. I fail to find in the <pb n=17>three volumes of his poems, even in the Letters, one acrimonious line savoring of personality.
+
+<p>Ibn-Khillikan, The Plutarch of Arabia, who is cautious and guarded in his statements, speaking of Abu&apos;l-Ala, truly says:
+
+<p>&ldquo;His asceticism, his deep sense of right and wrong, his powerful intellect, his prodigious memory, and his wide range of learning, are alike acknowledged by both friend and foe.&rdquo;
+
+<p>His pessimism was natural, in part hereditary. The man was nothing if not genuine and sincere. Ruthlessly he said what he thought and felt. He had no secrets to hide from the world, no thoughts which he dared not express. His soul was as open as Nature; his mind was the polished mirror of his age.<note n=o>&ldquo;His poems, generally known as the Luzumiyat, arrest attention by their boldness and originality as well as by the sombre and earnest tone which pervades them.&rdquo;&mdash;Raynold A. Nicholson: A Literary History of the Arabs.</note> It may be that had he not been blind-stricken and had not small-pox disfigured his features, he might have found a palliative in human society. His pessimism might not have been cured, but it might have been rendered at least enticing. Good-fellowship might have robbed it of its sting. Nor is his strong aversion to marriage, in view of these facts, surprising.
+
+<p>He lived to know that &ldquo;his fame spread from the sequestered village of Ma&apos;arrah to the utmost confines of the Arabic speaking world.&rdquo; In the spring of 1055 A.D. he died, and was buried in a <pb n=18>garden surrounding his home. Adh-Dhahabi states that there were present at his grave eighty poets, and that the Koran was read there two hundred times in a fortnight. Eighty poets in the small town of Ma&apos;arrah sounds incredible. But we must bear in mind that almost every one who studies the Arabic grammar has also to study prosody and versification and thus become at least a rhymster. Even to-day, the death of a noted person among the Arabs, is always an occasion for the display of much eloquence and tears, both in prose and verse.
+
+<p>Abu&apos;l-Ala, beside being a poet and scholar of the first rank, was also one of the foremost thinkers of his age. Very little is said of his teachings, his characteristics, his many-sided intellect, in the biographies I have read. The fact that he was a liberal thinker, a trenchant writer,&mdash;free, candid, downright, independent, skeptical withal,&mdash;answers for the neglect on the part of Mohammedan doctors, who, when they do discuss him, try to conceal from the world what his poems unquestionably reveal. I am speaking, of course, of the neglect after his death. For during his life-time he was much honored, as I have shown, and many distinguished travellers came especially to Ma&apos;arrah to see him. He was also often called upon to act as intercessor with the Emirs for the natives of his village.<note n=p>The Governor of Halab, Salih ibn Mirdas, passed once by Ma&apos;arrah, when thirty of its distinguished citizens were imprisoned on account of a riot in the town the previous year. Abu&apos;l-Ala being asked to intercede for them, was led to Salih, who received him most politely and asked him what he desired. The poet, in eloquent but unflattering speech, asked Salih &lsquo;to take and give forgiveness.&rsquo; And the Governor, not displeased, replied: &lsquo;I grant it you.&rsquo; Whereupon the prisoners were released.</note>
+
+<pb n=19><p>The larger collection of his poems, the Luzumiyat,<note n=q>&ldquo;His poems leave no aspect of the age (in which he lived) untouched, and present a vivid picture of degeneracy and corruption, in which tyrannous rulers, venal judges, hypocritical and unscrupulous theologians, swindling astrologers, roving swarms of dervishes and godless Carmathians, occupy a prominent place.&rdquo;&mdash;Raynold A. Nicholson: A Literary History of the Arabs.</note> was published in Cairo, in two volumes, by Azeez Zind, from an original Ms. written in the twelfth century, under Abu&apos;l-Ala&apos;s own title <hi lang=ar-Latn>Luzum ma la Yalzam</hi>, or the Necessity of what is Unnecessary. This title refers to the special system of rhyming which the poet adopted. And the poems, published in desultory fashion, were written, it seems, at different periods of his life, and are arranged according to his particular alphabetical system of rhyming. They bear no titles except, &ldquo;And he also says, rhyming with so and so,&rdquo; whatever the consonant and vowel may be. In his Preface to the Luzumiyat he says:
+
+<p>&ldquo;It happened that I composed these poems during the past years, and in them I have always aimed at the truth. They are certainly free from the blandishments of exaggeration. And while some of them are written in glorification of God, who is above such glory, others are, as it were, a reminder to those who forget, a pinch to those who sleep, and a warning to the children of the earth against the wiles of the great world, where human rights and human gratitude are often strangled by the same hand of Fate.&rdquo;
+
+<p>As for the translation of these chosen quatrains, let me say at the outset that it is almost impossible <pb n=20>to adhere to the letter thereof and convey the meaning without being insipid, dull, and at times even ridiculous. There being no affinity between the Arabic and the English, their standards of art and beauty widely differ, and in the process of transformation the outer garment at times must necessarily be doffed. I have always adhered to the spirit, however, preserving the native imagery where it was not too clannish or grotesque. I have added nothing that was foreign to the ruling idea, nor have I omitted anything that was necessary to the completion of the general thought. One might get an idea of what is called a scholarly translation from the works of any of the Orientalists who have made a study of Abu&apos;l-Ala. The first English scholar to mention the poet, as far as I know, was J. D. Carlisle, who in his &ldquo;Specimens of Arabic Poetry&rdquo;, published in 1810, has paraphrased in verse a quatrain on Pride and Virtue. He also translated into Latin one of Abu&apos;l-Ala&apos;s bold epigrams, fearing, I suppose, to publish it at that time in English.
+
+<p>The quatrains which are here published are culled from the three Volumes of his poems, and they are arranged, as nearly as may be, in the logical order of their sequence of thought. They form a kind of eclogue, which the poet-philosopher delivers from his prison in Ma&apos;arrah.
+
+<pb n=21><p>Once, in Damascus, I visited, with some friends, a distinguished Sufi; and when the tea was being served, our host held forth on the subject of Abu&apos;l-Ala&apos;s creed. He quoted from the Luzumiyat to show that the poet-philosopher of Ma&apos;arrah was a true Sufi, and of the highest order. &ldquo;In his passionate hatred of the vile world and all the vile material manifestations of life,&rdquo; quoth our host, &ldquo;he was like a dervish dancing in sheer bewilderment; a holy man, indeed, melting in tears before the distorted image of Divinity. In his aloofness, as in the purity of his spirit, the ecstatic negations of Abu&apos;l-Ala can only be translated in terms of the Sufi&apos;s creed. In his raptures, <hi lang=ar-Latn>shathat</hi>, he was as distant as Ibn ul-Arabi; and in his bewilderment, <hi lang=ar-Latn>heirat</hi>, he was as deeply intoxicated as Ibn ul-Fared. If others have symbolized the Divinity in wine, he symbolized it in Reason, which is the living oracle of the Soul; he has, in a word, embraced Divinity under the cover of a philosophy of extinction.&rdquo;...
+
+<p>This, and more such from our Sufi host, to which the guests gently nodded understanding. One of them, a young poet and scholar, even added that most of the irreligious opinions that are found in the Luzumiyat were forced upon the poet by the rigorous system of rhyming he adopted. The Rhyme, <pb n=22>then, is responsible for the heresies of Abu&apos;l-Ala! Allah be praised! But this view of the matter was not new to me. I have heard it expressed by zealous Muslem scholars, who see in Abu&apos;l-Ala an adversary too strong to be allowed to enlist with the enemy. They will keep him, as one of the &ldquo;Pillars of the Faith,&rdquo; at any cost. Coming from them, therefore, this rhyme-begotten heresy theory is not surprising.
+
+<p>But I am surprised to find a European scholar like Professor Margoliouth giving countenance to such views; even repeating, to support his own argument,<note n=r>&ldquo;The Mohammedan critics who thought he let his opinions be guided by his pen probably came near the truth. And any man who writes in such fetters as the meter (he means the rhyme-ending; for Abu&apos;l-Ala made use of every known meter of Arabic prosody) of the Luzumiyat imposes, can exercise but slight control over his thoughts.&rdquo;&mdash;D. S. Margoliouth: Letters of Abu&apos;l-Ala.</note> such drivel. For if the system of rhyme-ending imposes upon the poet his irreligious opinions, how can we account for them in his prose writings? How, for instance, explain his book &ldquo;<hi lang=ar-Latn>Al-fusul wal Ghayat</hi><corr>&rdquo;</corr> (The Chapters and the Purposes), a work in which he parodied the Koran itself, and which only needed, as he said, to bring it to the standard of the Book, &ldquo;the polishing of four centuries of reading in the pulpit?&rdquo; And how account for his &ldquo;<hi lang=ar-Latn>Risalat ul-Ghufran</hi>&rdquo; (Epistle of Forgiveness), a most remarkable work both in form and conception?&mdash;a Divina Comedia in its cotyledonous state, as it were, only that Abu&apos;l-Ala does not seem to have relished the idea of visiting Juhannam. He must have felt that in his &ldquo;three earthly prisons&rdquo; <pb n=23>he had had enough of it. So he visits the Jannat and there meets the pagan bards of Arabia lulling themselves in eternal bliss under the eternal shades of the <hi lang=ar-Latn>sidr</hi> tree, writing and reading and discussing poetry. Now, to people the Muslem&apos;s Paradise with heathen poets who have been forgiven,&mdash;hence the title of the Work,&mdash;and received among the blest,&mdash;is not this clear enough, bold enough, loud enough even for the deaf and the blind? &ldquo;The idea,&rdquo; says Professor Nicholson, speaking of The Epistle of Forgiveness,<note n=s>This work, of which Professor Nicholson says there are but two copies extant, one in Constantinople and the other in his own Collection, was published in Cairo, in 1907, edited by Sheikh Ibrahim ul-Yazeji.</note> &ldquo;is carried out with such ingenuity and in a spirit of audacious burlesque that reminds one of Lucien.&rdquo;
+
+<p>This does not mean, however, that the work is essentially of a burlesque quality. Abu&apos;l-Ala had humor; but his earnest tone is never so little at an ebb as when he is in his happiest mood. I quote from The Epistle of Forgiveness:
+
+
+    <q rend=block><p>&ldquo;Sometimes you may find a man skilful in his trade,&rdquo; says the Author, &ldquo;perfect in sagacity and in the use of arguments, but when he comes to religion he is found obstinate, so does he follow in the old groove. Piety is implanted in human nature; it is deemed a sure refuge. To the growing child, that which falls from his elders&apos; lips is a lesson that abides with him all his life. Monks in their cloisters and devotees in their mosques accept their creed just as a story is handed down from him who tells it, without distinguishing between a true interpreter and a <pb n=24>false. If one of these had found his kin among the Magians, or among the Sabians, he would have become nearly or quite like them.&rdquo;</q>
+
+
+<p>It does seem, too, that the strain of heterodoxy in Abu&apos;l-Ala is partly hereditary. His father, who was also a poet of some distinction, and his maternal uncle, were both noted for their liberal opinions in religious matters. And he himself, alluding in one of his poems to those who reproached him for not making the pilgrimage to Mecca, says that neither his father, nor his cousin, nor his uncle had pilgrimaged at all, and that he will not be denied forgiveness, if they are forgiven. And if they are not, he had as lief share their fate.
+
+<p>But aside from his prose writings, in which, do what we may, we can not explain away his supposed heresies, we find in the Luzumiyat themselves his dominant ideas on religion, for instance, being a superstition; wine, an unmitigated evil; virtue, its own reward; the cremation of the dead, a virtue; the slaughter or even the torture of animals a crime;<note n=t>&ldquo;To let go a flea is a more virtuous act than to give a dirham to a beggar.&rdquo;&mdash;Abu&apos;l-Ala.</note> doubt, a way to truth; reason, the only prophet and guide;&mdash;we find these ideas clothed in various images and expressed in varied forms, but unmistakable in whatever guise we find them. Here, for instance, is Professor Nicholson&apos;s almost literal translation of a quatrain from the Luzumiyat:
+
+
+<pb n=25><lg>
+    <l>Hanifs<note n=u>The Orthodox, <hi>i. e.</hi> the Mohammedans.</note> are stumbling, Christians gone astray,
+    <l>Jews wildered, Magians far on error&apos;s way:&mdash;
+    <l>We mortals are composed of two great schools,
+    <l>Enlightened knaves or else religious fools.
+</lg>
+
+
+<p>And here is the same idea, done in a large picture. The translation, literal too, is mine:
+
+
+<lg>
+    <l>&apos;Tis strange that Kusrah and his people wash
+      <l rend="indent(2)">Their faces in the staling of the kine;
+    <l>And that the Christians say, Almighty God
+      <l rend="indent(2)">Was tortured, mocked, and crucified in fine:
+    <l>And that the Jews should picture Him as one
+      <l rend="indent(2)">Who loves the odor of a roasting chine;
+    <l>And stranger still that Muslems travel far
+      <l rend="indent(2)">To kiss a black stone said to be divine:&mdash;
+    <l>Almighty God! will all the human race
+      <l rend="indent(2)">Stray blindly from the Truth&apos;s most sacred shrine?<note n=v>I do not find these verses in the printed copies of either the Luzumiyat or Suct uz-Zand. But they are quoted, from some Ms. copy I suppose, by the historian Abu&apos;l-Fida.</note>
+</lg>
+
+
+<p>The East still remains the battle-ground of the creeds. And the Europeans, though they shook off <hi>their</hi> fetters of moral and spiritual slavery, would keep us in ours to facilitate the conquests of European commence. Thus the terrible Dragon, which is fed by the foreign missionary and the native priest, by the theologians and the ulama, and which still preys upon the heart and mind of Orient nations, is as active to-day as it was ten centuries ago. Let those consider this, who think Von Kremer exaggerated when he said, &ldquo;Abu&apos;l-Ala is a poet many centuries ahead of his time.&rdquo;
+
+<pb n=26><p>Before closing, I wish to call attention to a question which, though unimportant in itself, is nevertheless worthy of the consideration of all admirers of Arabic and Persian literature. I refer to the similarity of thought which exists between Omar Khayyam and Abu&apos;l-Ala. The former, I have reason to believe, was an imitator or a disciple of the latter. The birth of the first poet and the death of the second are not very far apart: they both occurred about the middle of the eleventh century. The English reading public here and abroad has already formed its opinion of Khayyam. Let it not, therefore, be supposed that in making this claim I aim to shake or undermine its great faith. My desire is to confirm, not to weaken,&mdash;to expand, not contract,&mdash;the Oriental influence on the Occidental mind.
+
+<p>Whoever will take the trouble, however, to read Omar Khayyam in conjunction with what is here translated of Abu&apos;l-Ala, can not fail to see the striking similarity in thought and image of certain phases of the creed or the lack of creed of both poets.<note n=w>Omar wrote poetry in Arabic too. My learned friend, Isa Iskandar Maluf of Zehleh, Mt. Lebanon, showed me some quatrains of &ldquo;Omar the Tent-maker and Astronomer,&rdquo; in an old Arabic Ms. which bear a striking resemblance to some of Abu&apos;l-Ala&apos;s both in thought and style.</note> To be sure, the skepticism and pessimism of Omar are to a great extent imported from Ma&apos;arrah. But the Arab philosopher in his religious opinions is far more outspoken than the Persian tent-maker. I do not say that Omar was a plagiarist; but I say <pb n=27>this: just as Voltaire, for instance, acquired most of his liberal and skeptical views from Hobbes, Locke and Bayle, so did Omar acquire his from Abu&apos;l-Ala. In my notes to these quatrains I have quoted in comparison from both the Fitzgerald and the Herron-Allen versions of the Persian poet; and with so much or so little said, I leave the matter in the hands of the reader, who, upon a careful examination, will doubtless bear me out as to this point.
+
+
+<!-- NOTES TO PREFACE -->
+
+
+<pb n=35>
+</front>
+<body>
+<div1 id=luzumiyat type=Chapter>
+<head>THE LUZUMIYAT OF ABU&apos;L-ALA</head>
+
+
+<pb n=37>
+<div2 id=s1 n=I type=Section>
+<head>I</head>
+
+<lg>
+<l>The sable wings of Night pursuing day
+<l>Across the opalescent hills, display
+    <l rend="indent(2)">The wondrous star-gems which the fiery suns
+<l>Are scattering upon their fiery way.
+</lg>
+
+
+<div2 id=s2 n=II>
+<head>II</head>
+
+<lg>
+<l>O my Companion, Night is passing fair,
+<l>Fairer than aught the dawn and sundown wear;
+    <l rend="indent(2)">And fairer, too, than all the gilded days
+<l>Of blond Illusion and its golden snare.
+</lg>
+
+<pb n=38>
+
+
+<div2 id=s3 n=III>
+<head>III</head>
+
+<lg>
+<l>Hark, in the minarets muazzens call
+<l>The evening hour that in the interval
+    <l rend="indent(2)">Of darkness Ahmad might remembered be,&mdash;
+<l>Remembered of the Darkness be they all.
+</lg>
+
+
+<div2 id=s4 n=IV>
+<head>IV</head>
+
+<lg>
+<l>And hear the others who with cymbals try
+<l>To stay the feet of every passer-by:
+    <l rend="indent(2)">The market-men along the darkling lane
+<l>Are crying up their wares.&mdash;Oh! let them cry<corr sic=",">.</corr>
+</lg>
+
+<pb n=39>
+
+
+<div2 id=s5 n=V>
+<head>V</head>
+
+<lg>
+<l>Mohammed or Messiah! Hear thou me,
+<l>The truth entire nor here nor there can be;
+    <l rend="indent(2)">How should our God who made the sun and moon
+<l>Give all his light to One, I cannot see.
+</lg>
+
+
+<div2 id=s6 n=VI>
+<head>VI</head>
+
+<lg>
+<l>Come, let us with the naked Night now rest
+<l>And read in Allah&apos;s Book the sonnet best:
+    <l rend="indent(2)">The Pleiads&mdash;ah, the Moon from them departs,&mdash;
+<l>She draws her veil and hastens toward the west.
+</lg>
+
+<pb n=40>
+
+
+<div2 id=s7 n=VII>
+<head>VII</head>
+
+<lg>
+<l>The Pleiads follow; and our Ethiop Queen,
+<l>Emerging from behind her starry screen,
+    <l rend="indent(2)">Will steep her tresses in the saffron dye
+<l>Of dawn, and vanish in the morning sheen.
+</lg>
+
+
+<div2 id=s8 n=VIII>
+<head>VIII</head>
+
+<lg>
+<l>The secret of the day and night is in
+<l>The constellations, which forever spin
+    <l rend="indent(2)">Around each other in the comet-dust;&mdash;
+<l>The comet-dust and humankind are kin.
+</lg>
+
+<pb n=41>
+
+
+<div2 id=s9 n=IX>
+<head>IX</head>
+
+<lg>
+<l>But whether of dust or fire or foam, the glaive
+<l>Of Allah cleaves the planet and the wave
+    <l rend="indent(2)">Of this mysterious Heaven-Sea of life,
+<l>And lo! we have the Cradle of the Grave.
+</lg>
+
+
+<div2 id=s10 n=X>
+<head>X</head>
+
+<lg>
+<l>The Grave and Cradle, the untiring twain,
+<l>Who in the markets of this narrow lane
+    <l rend="indent(2)">Bordered of darkness, ever give and take
+<l>In equal measure&mdash;what&apos;s the loss or gain?
+</lg>
+
+
+<pb n=42>
+<div2 id=s11 n=XI>
+<head>XI</head>
+
+<lg>
+<l>Ay, like the circles which the sun doth spin
+<l>Of gossamer, we end as we begin;
+    <l rend="indent(2)">Our feet are on the heads of those that pass,
+<l>But ever their Graves around our Cradles grin.
+</lg>
+
+
+<div2 id=s12 n=XII>
+<head>XII</head>
+
+<lg>
+<l>And what avails it then that Man be born
+<l>To joy or sorrow?&mdash;why rejoice or mourn?
+    <l rend="indent(2)">The doling doves are calling to the rose;
+<l>The dying rose is bleeding o&apos;er the thorn.
+</lg>
+
+<pb n=43>
+
+
+<div2 id=s13 n=XIII>
+<head>XIII</head>
+
+<lg>
+<l>And he the Messenger, who takes away
+<l>The faded garments, purple, white, and gray
+    <l rend="indent(2)">Of all our dreams unto the Dyer, will
+<l>Bring back new robes to-morrow&mdash;so they say.
+</lg>
+
+
+<div2 id=s14 n=XIV>
+<head>XIV</head>
+
+<lg>
+<l>But now the funeral is passing by,
+<l>And in its trail, beneath this moaning sky,
+    <l rend="indent(2)">The howdaj comes,&mdash;both vanish into night;
+<l>To me are one, the sob, the joyous cry.
+</lg>
+
+<pb n=44>
+
+
+<div2 id=s15 n=XV>
+<head>XV</head>
+
+<lg>
+<l>With tombs and ruined temples groans the land
+<l>In which our forbears in the drifting sand
+    <l rend="indent(2)">Arise as dunes upon the track of Time
+<l>To mark the cycles of the moving hand
+</lg>
+
+
+<div2 id=s16 n=XVI>
+<head>XVI</head>
+
+<lg>
+<l>Of Fate. Alas! and we shall follow soon
+<l>Into the night eternal or the noon;
+    <l rend="indent(2)">The wayward daughters of the spheres return
+<l>Unto the bosom of their sun or moon.
+</lg>
+
+<pb n=45>
+
+
+<div2 id=s17 n=XVII>
+<head>XVII</head>
+
+<lg>
+<l>And from the last days of Thamud and &lsquo;Ad
+<l>Up to the first of Hashem&apos;s fearless lad,
+    <l rend="indent(2)">Who smashed the idols of his mighty tribe,
+<l>What idols and what heroes Death has had!
+</lg>
+
+
+<div2 id=s18 n=XVIII>
+<head>XVIII</head>
+
+<lg>
+<l>Tread lightly, for the mighty that have been
+<l>Might now be breathing in the dust unseen;
+    <l rend="indent(2)">Lightly, the violets beneath thy feet
+<l>Spring from the mole of some Arabian queen.
+</lg>
+
+<pb n=46>
+
+
+<div2 id=s19 n=XIX>
+<head>XIX</head>
+
+<lg>
+<l>Many a grave embraces friend and foe
+<l>Behind the curtain of this sorry show
+    <l rend="indent(2)">Of love and hate inscrutable; alas!
+<l>The Fates will always reap the while they sow.
+</lg>
+
+
+<div2 id=s20 n=XX>
+<head>XX</head>
+
+<lg>
+<l>The silken fibre of the fell Zakkum,
+<l>As warp and woof, is woven on the loom
+    <l rend="indent(2)">Of life into a tapestry of dreams
+<l>To decorate the chariot-seat of Doom.
+</lg>
+
+<pb n=47>
+
+
+<div2 id=s21 n=XXI>
+<head>XXI</head>
+
+<lg>
+<l>And still we weave, and still we are content
+<l>In slaving for the sovereigns who have spent
+    <l rend="indent(2)">The savings of the toiling of the mind
+<l>Upon the glory of Dismemberment.
+</lg>
+
+
+<div2 id=s22 n=XXII>
+<head>XXII</head>
+
+<lg>
+<l>Nor king nor slave the hungry Days will spare;
+<l>Between their fangéd Hours alike we fare:
+    <l rend="indent(2)">Anon they bound upon us while we play
+<l>Unheeding at the threshold of their Lair.
+</lg>
+
+<pb n=48>
+
+
+<div2 id=s23 n=XXIII>
+<head>XXIII</head>
+
+<lg>
+<l>Then Jannat or Juhannam? From the height
+<l>Of reason I can see nor fire nor light
+    <l rend="indent(2)">That feeds not on the darknesses; we pass
+<l>From world to world, like shadows through the night.
+</lg>
+
+
+<div2 id=s24 n=XXIV>
+<head>XXIV</head>
+
+<lg>
+<l>Or sleep&mdash;and shall it be eternal sleep
+<l>Somewhither in the bosom of the deep
+    <l rend="indent(2)">Infinities of cosmic dust, or here
+<l>Where gracile cypresses the vigil keep!
+</lg>
+
+<pb n=49>
+
+
+<div2 id=s25 n=XXV>
+<head>XXV</head>
+
+<lg>
+<l>Upon the threshing-floor of life I burn
+<l>Beside the Winnower a word to learn;
+    <l rend="indent(2)">And only this: Man&apos;s of the soil and sun,
+<l>And to the soil and sun he shall return.
+</lg>
+
+
+<div2 id=s26 n=XXVI>
+<head>XXVI</head>
+
+<lg>
+<l>And like a spider&apos;s house or sparrow&apos;s nest,
+<l>The Sultan&apos;s palace, though upon the crest
+    <l rend="indent(2)">Of glory&apos;s mountain, soon or late must go:
+<l>Ay, all abodes to ruin are addrest.
+</lg>
+
+<pb n=50>
+
+
+<div2 id=s27 n=XXVII>
+<head>XXVII</head>
+
+<lg>
+<l>So, too, the creeds of Man: the one prevails
+<l>Until the other comes; and this one fails
+    <l rend="indent(2)">When that one triumphs; ay, the lonesome world
+<l>Will always want the latest fairy-tales.
+</lg>
+
+
+<div2 id=s28 n=XXVIII>
+<head>XXVIII</head>
+
+<lg>
+<l>Seek not the Tavern of Belief, my friend,
+<l>Until the Sakis there their morals mend;
+    <l rend="indent(2)">A lie imbibed a thousand lies will breed,
+<l>And thou&apos;lt become a Saki in the end.
+</lg>
+
+<pb n=51>
+
+
+<div2 id=s29 n=XXIX>
+<head>XXIX</head>
+
+<lg>
+<l>By fearing whom I trust I find my way
+<l>To truth; by trusting wholly I betray
+    <l rend="indent(2)">The trust of wisdom; better far is doubt
+<l>Which brings the false into the light of day.
+</lg>
+
+
+<div2 id=s30 n=XXX>
+<head>XXX</head>
+
+<lg>
+<l>Or wilt thou commerce have with those who make
+<l>Rugs of the rainbow, rainbows of the snake,
+    <l rend="indent(2)">Snakes of a staff, and other wondrous things?&mdash;
+<l>The burning thirst a mirage can not slake.
+</lg>
+
+
+<pb n=52>
+<div2 id=s31 n=XXXI>
+<head>XXXI</head>
+
+<lg>
+<l>Religion is a maiden veiled in prayer,
+<l>Whose bridal gifts and dowry those who care
+    <l rend="indent(2)">Can buy in Mutakallem&apos;s shop of words
+<l>But I for such, a dirham can not spare.
+</lg>
+
+
+<div2 id=s32 n=XXXII>
+<head>XXXII</head>
+
+<lg>
+<l>Why linger here, why turn another page?
+<l>Oh! seal with doubt the whole book of the age;
+    <l rend="indent(2)">Doubt every one, even him, the seeming slave
+<l>Of righteousness, and doubt the canting sage.
+</lg>
+
+
+<pb n=53>
+<div2 id=s33 n=XXXIII>
+<head>XXXIII</head>
+
+<lg>
+<l>Some day the weeping daughters of Hadil
+<l>Will say unto the bulbuls: &ldquo;Let&apos;s appeal
+    <l rend="indent(2)">To Allah in behalf of Brother Man
+<l>Who&apos;s at the mercy now of Ababil.&rdquo;
+</lg>
+
+
+<div2 id=s34 n=XXXIV>
+<head>XXXIV</head>
+
+<lg>
+<l>Of Ababil! I would the tale were true,&mdash;
+<l>Would all the birds were such winged furies too;
+    <l rend="indent(2)">The scourging and the purging were a boon
+<l>For me, O my dear Brothers, and for you.
+</lg>
+
+<pb n=54>
+
+
+<div2 id=s35 n=XXXV>
+<head>XXXV</head>
+
+<lg>
+<l>Methinks Allah divides me to complete
+<l>His problem, which with Xs is replete;
+    <l rend="indent(2)">For I am free and I am too in chains
+<l>Groping along the labyrinthine street.
+</lg>
+
+
+<div2 id=s36 n=XXXVI>
+<head>XXXVI</head>
+
+<lg>
+<l>And round the Well how oft my Soul doth grope
+<l>Athirst; but lo! my Bucket hath no Rope:
+    <l rend="indent(2)">I cry for water, and the deep, dark Well
+<l>Echoes my wailing cry, but not my hope.
+</lg>
+
+<pb n=55>
+
+
+<div2 id=s37 n=XXXVII>
+<head>XXXVII</head>
+
+<lg>
+<l>Ah, many have I seen of those who fell
+<l>While drawing, with a swagger, from the Well;
+    <l rend="indent(2)">They came with Rope and Bucket, and they went
+<l>Empty of hand another tale to tell.
+</lg>
+
+
+<div2 id=s38 n=XXXVIII>
+<head>XXXVIII</head>
+
+<lg>
+<l>The <hi>I</hi> in me standing upon the brink
+<l>Would leap into the Well to get a drink;
+    <l rend="indent(2)">But how to rise once in the depth, I cry,
+<l>And cowardly behind my logic slink.
+</lg>
+
+<pb n=56>
+
+
+<div2 id=s39 n=XXXIX>
+<head>XXXIX</head>
+
+<lg>
+<l>And she: &ldquo;How long must I the burden bear?
+<l>How long this tattered garment must I wear?&rdquo;
+    <l rend="indent(2)">And I: &ldquo;Why wear it? Leave it here, and go
+<l>Away without it&mdash;little do I care.&rdquo;
+</lg>
+
+
+<div2 id=s40 n=XL>
+<head>XL</head>
+
+<lg>
+<l>But once when we were quarreling, the door
+<l>Was opened by a Visitor who bore
+    <l rend="indent(2)">Both Rope and Pail; he offered them and said:
+<l>&ldquo;Drink, if you will, but once, and nevermore.&rdquo;
+</lg>
+
+<pb n=57>
+
+
+<div2 id=s41 n=XLI>
+<head>XLI</head>
+
+<lg>
+<l>One draught, more bitter than the Zakkum tree,
+<l>Brought us unto the land of mystery
+    <l rend="indent(2)">Where rising Sand and Dust and Flame conceal
+<l>The door of every Caravanseri.
+</lg>
+
+
+<div2 id=s42 n=XLII>
+<head>XLII</head>
+
+<lg>
+<l>We reach a door and there the legend find.
+<l>&ldquo;To all the Pilgrims of the Human Mind:
+    <l rend="indent(2)">Knock and pass on!&rdquo; We knock and knock and knock;
+<l>But no one answers save the moaning wind<corr>.</corr>
+</lg>
+
+<pb n=58>
+
+
+<div2 id=s43 n=XLIII>
+<head>XLIII</head>
+
+<lg>
+<l>How like a door the knowledge we attain,
+<l>Which door is on the bourne of the Inane;
+    <l rend="indent(2)">It opens and our nothingness is closed,&mdash;
+<l>It closes and in darkness we remain.
+</lg>
+
+
+<div2 id=s44 n=XLIV>
+<head>XLIV</head>
+
+<lg>
+<l>Hither we come unknowing, hence we go;
+<l>Unknowing we are messaged to and fro;
+    <l rend="indent(2)">And yet we think we know all things of earth
+<l>And sky&mdash;the suns and stars we think we know.
+</lg>
+
+<pb n=59>
+
+
+<div2 id=s45 n=XLV>
+<head>XLV</head>
+
+<lg>
+<l>Apply thy wit, O Brother, here and there
+<l>Upon this and upon that; but beware
+    <l rend="indent(2)">Lest in the end&mdash;ah, better at the start
+<l>Go to the Tinker for a slight repair.
+</lg>
+
+
+<div2 id=s46 n=XLVI>
+<head>XLVI</head>
+
+<lg>
+<l>And why so much ado, and wherefore lay
+<l>The burden of the years upon the day
+    <l rend="indent(2)">Of thy vain dreams? Who polishes his sword
+<l>Morning and eve will polish it away.
+</lg>
+
+<pb n=60>
+
+
+<div2 id=s47 n=XLVII>
+<head>XLVII</head>
+
+<lg>
+<l>I heard it whispered in the cryptic streets
+<l>Where every sage the same dumb shadow meets:
+    <l rend="indent(2)">&ldquo;We are but words fallen from the lipe of Time
+<l>Which God, that we might understand, repeats.&rdquo;
+</lg>
+
+
+<div2 id=s48 n=XLVIII>
+<head>XLVIII</head>
+
+<lg>
+<l>Another said: &ldquo;The creeping worm hath shown,
+<l>In her discourse on human flesh and bone,
+    <l rend="indent(2)">That Man was once the bed on which she slept&mdash;
+<l>The walking dust was once a thing of stone.&rdquo;
+</lg>
+
+<pb n=61>
+
+
+<div2 id=s49 n=XLIX>
+<head>XLIX</head>
+
+<lg>
+<l>And still another: &ldquo;We are coins which fade
+<l>In circulation, coins which Allah made
+    <l rend="indent(2)">To cheat Iblis: the good and bad alike
+<l>Are spent by Fate upon a passing shade.&rdquo;
+</lg>
+
+
+<div2 id=s50 n=L>
+<head>L</head>
+
+<lg>
+<l>And in the pottery the potter cried,
+<l>As on his work shone all the master&apos;s pride&mdash;
+    <l rend="indent(2)">&ldquo;How is it, Rabbi, I, thy slave, can make
+<l>Such vessels as nobody dare deride?&rdquo;
+</lg>
+
+<pb n=62>
+
+
+<div2 id=s51 n=LI>
+<head>LI</head>
+
+<lg>
+<l>The Earth then spake: &ldquo;My children silent be;
+<l>Same are to God the camel and the flea:
+    <l rend="indent(2)">He makes a mess of me to nourish you,
+<l>Then makes a mess of you to nourish me.&rdquo;
+</lg>
+
+
+<div2 id=s52 n=LII>
+<head>LII</head>
+
+<lg>
+<l>Now, I believe the Potter will essay
+<l>Once more the Wheel, and from a better clay
+    <l rend="indent(2)">Will make a better Vessel, and perchance
+<l>A masterpiece which will endure for aye.
+</lg>
+
+<pb n=63>
+
+
+<div2 id=s53 n=LIII>
+<head>LIII</head>
+
+<lg>
+<l>With better skill he even will remould
+<l>The scattered potsherds of the New and Old;
+    <l rend="indent(2)">Then you and I will not disdain to buy,
+<l>Though in the mart of Iblis they be sold.
+</lg>
+
+
+<div2 id=s54 n=LIV>
+<head>LIV</head>
+
+<lg>
+<l>Sooth I have told the masters of the mart
+<l>Of rusty creeds and Babylonian art
+    <l rend="indent(2)">Of magic. Now the truth about myself&mdash;
+<l>Here is the secret of my wincing heart.
+</lg>
+
+<pb n=64>
+
+
+<div2 id=s55 n=LV>
+<head>LV</head>
+
+<lg>
+<l>I muse, but in my musings I recall
+<l>The days of my iniquity; we&apos;re all&mdash;
+    <l rend="indent(2)">An arrow shot across the wilderness,
+<l>Somewhither, in the wilderness must fall.
+</lg>
+
+
+<div2 id=s56 n=LVI>
+<head>LVI</head>
+
+<lg>
+<l>I laugh, but in my laughter-cup I pour
+<l>The tears of scorn and melancholy sore;
+    <l rend="indent(2)">I who am shattered by the hand of Doubt,
+<l>Like glass to be remoulded nevermore.
+</lg>
+
+<pb n=65>
+
+
+<div2 id=s57 n=LVII>
+<head>LVII</head>
+
+<lg>
+<l>I wheedle, too, even like my slave Zeidun,
+<l>Who robs at dawn his brother, and at noon
+    <l rend="indent(2)">Prostrates himself in prayer&mdash;ah, let us pray
+<l>That Night might blot us and our sins, and soon.
+</lg>
+
+
+<div2 id=s58 n=LVIII>
+<head>LVIII</head>
+
+<lg>
+<l>But in the fatal coils, without intent,
+<l>We sin; wherefore a future punishment?
+    <l rend="indent(2)">They say the metal dead a deadly steel
+<l>Becomes with Allah&apos;s knowledge and consent.
+</lg>
+
+<pb n=66>
+
+
+<div2 id=s59 n=LIX>
+<head>LIX</head>
+
+<lg>
+<l>And even the repentant sinner&apos;s tear
+<l>Falling into Juhannam&apos;s very ear,
+    <l rend="indent(2)">Goes to its heart, extinguishes its fire
+<l>For ever and forever,&mdash;so I hear.
+</lg>
+
+
+<div2 id=s60 n=LX>
+<head>LX</head>
+
+<lg>
+<l>Between the white and purple Words of Time
+<l>In motley garb with Destiny I rhyme:
+    <l rend="indent(2)">The colored glasses to the water give
+<l>The colors of a symbolry sublime.
+</lg>
+
+<pb n=67>
+
+
+<div2 id=s61 n=LXI>
+<head>LXI</head>
+
+<lg>
+<l>How oft, when young, my brothers I would shun
+<l>If their religious feelings were not spun
+    <l rend="indent(2)">Of my own cobweb, which I find was but
+<l>A spider&apos;s revelation of the sun.
+</lg>
+
+
+<div2 id=s62 n=LXII>
+<head>LXII</head>
+
+<lg>
+<l>Now, mosques and churches&mdash;even a Kaaba Stone,
+<l>Korans and Bibles&mdash;even a martyr&apos;s bone,&mdash;
+    <l rend="indent(2)">All these and more my heart can tolerate,
+<l>For my religion&apos;s love, and love alone.
+</lg>
+
+<pb n=68>
+
+
+<div2 id=s63 n=LXIII>
+<head>LXIII</head>
+
+<lg>
+<l>To humankind, O Brother, consecrate
+<l>Thy heart, and shun the hundred Sects that prate
+    <l rend="indent(2)">About the things they little know about&mdash;
+<l>Let all receive thy pity, none thy hate.
+</lg>
+
+
+<div2 id=s64 n=LXIV>
+<head>LXIV</head>
+
+<lg>
+<l>The tavern and the temple also shun,
+<l>For sheikh and libertine in sooth are one;
+    <l rend="indent(2)">And when the pious knave begins to pule,
+<l>The knave in purple breaks his vow anon.
+</lg>
+
+<pb n=69>
+
+
+<div2 id=s65 n=LXV>
+<head>LXV</head>
+
+<lg>
+<l>&ldquo;The wine&apos;s forbidden,&rdquo; say these honest folk,
+<l>But for themselves the law they will revoke;
+    <l rend="indent(2)">The snivelling sheikh says he&apos;s without a garb,
+<l>When in the tap-house he had pawned his cloak<corr sic=",">.</corr>
+</lg>
+
+
+<div2 id=s66 n=LXVI>
+<head>LXVI</head>
+
+<lg>
+<l>Or in the house of lust. The priestly name
+<l>And priestly turban once were those of Shame&mdash;
+    <l rend="indent(2)">And Shame is preaching in the pulpit now&mdash;
+<l>If pulpits tumble down, I&apos;m not to blame.
+</lg>
+
+<pb n=70>
+
+
+<div2 id=s67 n=LXVII>
+<head>LXVII</head>
+
+<lg>
+<l>For after she declaims upon the vows
+<l>Of Faith, she pusillanimously bows
+    <l rend="indent(2)">Before the Sultan&apos;s wine-empurpled throne,
+<l>While he and all his courtezans carouse.
+</lg>
+
+
+<div2 id=s68 n=LXVIII>
+<head>LXVIII</head>
+
+<lg>
+<l>Carouse, ye sovereign lords! The wheel will roll
+<l>Forever to confound and to console:
+    <l rend="indent(2)">Who sips to-day the golden cup will drink
+<l>Mayhap to-morrow in a wooden bowl&mdash;
+</lg>
+
+<pb n=71>
+
+
+<div2 id=s69 n=LXIX>
+<head>LXIX</head>
+
+<lg>
+<l>And silent drink. The tumult of our mirth
+<l>Is worse than our mad welcoming of birth:&mdash;
+    <l rend="indent(2)">The thunder hath a grandeur, but the rains,
+<l>Without the thunder, quench the thirst of Earth.
+</lg>
+
+
+<div2 id=s70 n=LXX>
+<head>LXX</head>
+
+<lg>
+<l>The Prophets, too, among us come to teach,
+<l>Are one with those who from the pulpit preach;
+    <l rend="indent(2)">They pray, and slay, and pass away, and yet
+<l>Our ills are as the pebbles on the beach.
+</lg>
+
+<pb n=72>
+
+
+<div2 id=s71 n=LXXI>
+<head>LXXI</head>
+
+<lg>
+<l>And though around the temple they should run
+<l>For seventy times and seven, and in the sun
+    <l rend="indent(2)">Of mad devotion drool, their prayers are still
+<l>Like their desires of feasting-fancies spun.
+</lg>
+
+
+<div2 id=s72 n=LXXII>
+<head>LXXII</head>
+
+<lg>
+<l>Oh! let them in the marshes grope, or ride
+<l>Their jaded Myths along the mountain-side;
+    <l rend="indent(2)">Come up with me, O Brother, to the heights
+<l>Where Reason is the prophet and the guide.
+</lg>
+
+<pb n=73>
+
+
+<div2 id=s73 n=LXXIII>
+<head>LXXIII</head>
+
+<lg>
+<l>&ldquo;What is thy faith and creed,&rdquo; they ask of me,
+<l>&ldquo;And who art thou? Unseal thy pedigree.&rdquo;&mdash;
+    <l rend="indent(2)">I am the child of Time, my tribe, mankind,
+<l>And now this world&apos;s my caravanseri.
+</lg>
+
+
+<div2 id=s74 n=LXXIV>
+<head>LXXIV</head>
+
+<lg>
+<l>Swathe thee in wool, my Sufi friend, and go
+<l>Thy way; in cotton I the wiser grow;
+    <l rend="indent(2)">But we ourselves are shreds of earth, and soon
+<l>The Tailor of the Universe will sew.
+</lg>
+
+<pb n=74>
+
+
+<div2 id=s75 n=LXXV>
+<head>LXXV</head>
+
+<lg>
+<l>Ay! suddenly the mystic Hand will seal
+<l>The saint&apos;s devotion and the sinner&apos;s weal;
+    <l rend="indent(2)">They worship Saturn, but I worship One
+<l>Before whom Saturn and the Heavens kneel.
+</lg>
+
+
+<div2 id=s76 n=LXXVI>
+<head>LXXVI</head>
+
+<lg>
+<l>Among the crumbling ruins of the creeds
+<l>The Scout upon his camel played his reeds
+    <l rend="indent(2)">And called out to his people,&mdash;&ldquo;Let us hence!
+<l>The pasture here is full of noxious weeds.&rdquo;
+</lg>
+
+<pb n=75>
+
+
+<div2 id=s77 n=LXXVII>
+<head>LXXVII</head>
+
+<lg>
+<l>Among us falsehood is proclaimed aloud,
+<l>But truth is whispered to the phantom bowed
+    <l rend="indent(2)">Of conscience; ay! and Wrong is ever crowned,
+<l>While Right and Reason are denied a shroud.
+</lg>
+
+
+<div2 id=s78 n=LXXVIII>
+<head>LXXVIII</head>
+
+<lg>
+<l>And why in this dark Kingdom tribute pay?
+<l>With clamant multitudes why stop to pray?
+    <l rend="indent(2)">Oh! hear the inner Voice:&mdash;&ldquo;If thou&apos;lt be right,
+<l>Do what they deem is wrong, and go thy way.&rdquo;
+</lg>
+
+<pb n=76>
+
+
+<div2 id=s79 n=LXXIX>
+<head>LXXIX</head>
+
+<lg>
+<l>Thy way unto the Sun the spaces through
+<l>Where king Orion&apos;s black-eyed huris slew
+    <l rend="indent(2)">The Mother of Night to guide the Wings that bear
+<l>The flame divine hid in a drop of dew.
+</lg>
+
+
+<div2 id=s80 n=LXXX>
+<head>LXXX</head>
+
+<lg>
+<l>Hear ye who in the dust of ages creep,
+<l>And in the halls of wicked masters sleep:&mdash;
+    <l rend="indent(2)">Arise! and out of this wan weariness
+<l>Where Allah&apos;s laughter makes the Devil weep.
+</lg>
+
+<pb n=77>
+
+
+<div2 id=s81 n=LXXXI>
+<head>LXXXI</head>
+
+<lg>
+<l>Arise! for lo! the Laughter and the Weeping
+<l>Reveal the Weapon which the Master&apos;s keeping
+    <l rend="indent(2)">Above your heads; Oh! take it up and strike!
+<l>The lion of tyranny is only sleeping.
+</lg>
+
+
+<div2 id=s82 n=LXXXII>
+<head>LXXXII</head>
+
+<lg>
+<l>Evil and Virtue? Shadows on the street
+<l>Of Fate and Vanity,&mdash;but shadows meet
+    <l rend="indent(2)">When in the gloaming they are hast&apos;ning forth
+<l>To drink with Night annihilation sweet.
+</lg>
+
+<pb n=78>
+
+
+<div2 id=s83 n=LXXXIII>
+<head>LXXXIII</head>
+
+<lg>
+<l>And thus the Sun will write and will efface
+<l>The mystic symbols which the sages trace
+    <l rend="indent(2)">In vain, for all the worlds of God are stored
+<l>In his enduring vessels Time and Space.
+</lg>
+
+
+<div2 id=s84 n=LXXXIV>
+<head>LXXXIV</head>
+
+<lg>
+<l>For all my learning&apos;s but a veil, I guess,
+<l>Veiling the phantom of my nothingness;
+    <l rend="indent(2)">Howbeit, there are those who think me wise,
+<l>And those who think me&mdash;even these I bless.
+</lg>
+
+<pb n=79>
+
+
+<div2 id=s85 n=LXXXV>
+<head>LXXXV</head>
+
+<lg>
+<l>And all my years, as vapid as my lay,
+<l>Are bitter morsels of a mystic day,&mdash;
+    <l rend="indent(2)">The day of Fate, who carries in his lap
+<l>December snows and snow-white flowers of May.
+</lg>
+
+
+<div2 id=s86 n=LXXXVI>
+<head>LXXXVI</head>
+
+<lg>
+<l>Allah, my sleep is woven through, it seems,
+<l>With burning threads of night and golden beams;
+    <l rend="indent(2)">But when my dreams are evil they come true;
+<l>When they are not, they are, alas! but dreams.
+</lg>
+
+<pb n=80>
+
+
+<div2 id=s87 n=LXXXVII>
+<head>LXXXVII</head>
+
+<lg>
+<l>The subtle ways of Destiny I know;
+<l>In me she plays her game of &ldquo;Give and Go.&rdquo;
+    <l rend="indent(2)">Misfortune I receive in cash, but joy,
+<l>In drafts on Heaven or on the winds that blow.
+</lg>
+
+
+<div2 id=s88 n=LXXXVIII>
+<head>LXXXVIII</head>
+
+<lg>
+<l>I give and go, grim Destiny,&mdash;I play
+<l>Upon this checker-board of Night and Day
+    <l rend="indent(2)">The dark game with thee, but the day will come
+<l>When one will turn the Board the other way.
+</lg>
+
+<pb n=81>
+
+
+<div2 id=s89 n=LXXXIX>
+<head>LXXXIX</head>
+
+<lg>
+<l>If my house-swallow, laboring with zest,
+<l>Felt like myself the burden of unrest,
+    <l rend="indent(2)">Unlightened by inscrutable designs,
+<l>She would not build her young that cozy nest.
+</lg>
+
+
+<div2 id=s90 n=XC>
+<head>XC</head>
+
+<lg>
+<l>Thy life with guiltless life-blood do not stain&mdash;
+<l>Hunt not the children of the woods; in vain
+    <l rend="indent(2)">Thou&apos;lt try one day to wash thy bloody hand:
+<l>Nor hunter here nor hunted long remain<corr>.</corr>
+</lg>
+
+<pb n=82>
+
+
+<div2 id=s91 n=XCI>
+<head>XCI</head>
+
+<lg>
+<l>Oh! cast my dust away from thee, and doff
+<l>Thy cloak of sycophancy and like stuff:
+    <l rend="indent(2)">I&apos;m but a shadow on the sandy waste,&mdash;
+<l>Enough of thy duplicity, enough!
+</lg>
+
+
+<div2 id=s92 n=XCII>
+<head>XCII</head>
+
+<lg>
+<l>Behold! the Veil that hid thy soul is torn
+<l>And all thy secrets on the winds are borne:
+    <l rend="indent(2)">The hand of Sin has written on thy face
+<l>&ldquo;Awake, for these untimely furrows warn!&rdquo;
+</lg>
+
+<pb n=83>
+
+
+<div2 id=s93 n=XCIII>
+<head>XCIII</head>
+
+<lg>
+<l>A prince of souls, &lsquo;tis sung in ancient lay,
+<l>One morning sought a vesture of the clay;
+    <l rend="indent(2)">He came into the Pottery, the fool&mdash;
+<l>The lucky fool was warned to stay away.
+</lg>
+
+
+<div2 id=s94 n=XCIV>
+<head>XCIV</head>
+
+<lg>
+<l>But I was not. Oh! that the Fates decree
+<l>That I now cast aside this clay of me;
+    <l rend="indent(2)">My soul and body wedded for a while
+<l>Are sick and would that separation be.
+</lg>
+
+<pb n=84>
+
+
+<div2 id=s95 n=XCV>
+<head>XCV</head>
+
+<lg>
+<l>&ldquo;Thou shalt not kill!&rdquo;&mdash;Thy words, O God, we heed,
+<l>Though thy two Soul-devouring Angels feed
+    <l rend="indent(2)">Thy Promise of another life on this,&mdash;
+<l>To have spared us both, it were a boon indeed.
+</lg>
+
+
+<div2 id=s96 n=XCVI>
+<head>XCVI</head>
+
+<lg>
+<l>Oh! that some one would but return to tell
+<l>If old Nubakht is burning now in hell,
+    <l rend="indent(2)">Or if the workers for the Prophet&apos;s prize
+<l>Are laughing at his Paradisal sell.
+</lg>
+
+<pb n=85>
+
+
+<div2 id=s97 n=XCVII>
+<head>XCVII</head>
+
+<lg>
+<l>Once I have tried to string a few Pearl-seeds
+<l>Upon my Rosary of wooden beads;
+    <l rend="indent(2)">But I have searched, and I have searched in vain
+<l>For pearls in all the caverns of the creeds
+</lg>
+
+
+<div2 id=s98 n=XCVIII>
+<head>XCVIII</head>
+
+<lg>
+<l>And in the palaces of wealth I found
+<l>Some beads of wisdom scattered on the ground,
+    <l rend="indent(2)">Around the throne of Power, beneath the feet
+<l>Of fair-faced slaves with flowers of folly crowned.
+</lg>
+
+<pb n=86>
+
+
+<div2 id=s99 n=XCIX>
+<head>XCIX</head>
+
+<lg>
+<l>Thy wealth can shed no tears around thy bier,
+<l>Nor can it wash thy hands of shame and fear;
+    <l rend="indent(2)">Ere thou departest with it freely part<corr sic=.>,</corr>&mdash;
+<l>Let others plead for thee and God will hear.
+</lg>
+
+
+<div2 id=s100 n=C>
+<head>C</head>
+
+<lg>
+<l>For me thy silks and feathers have no charm
+<l>The pillow I like best is my right arm;
+    <l rend="indent(2)">The comforts of this passing show I spurn,
+<l>For Poverty can do the soul no harm.
+</lg>
+
+<pb n=87>
+
+
+<div2 id=s101 n=CI>
+<head>CI</head>
+
+<lg>
+<l>The guiding hand of Allah I can see
+<l>Upon my staff: of what use then is he
+    <l rend="indent(2)">Who&apos;d be the blind man&apos;s guide? Thou silent oak,
+<l>No son of Eve shall walk with me and thee.
+</lg>
+
+
+<div2 id=s102 n=CII>
+<head>CII</head>
+
+<lg>
+<l>My life&apos;s the road on which I blindly speed:
+<l>My goal&apos;s the grave on which I plant a reed
+    <l rend="indent(2)">To shape my Hope, but soon the Hand unseen
+<l>Will strike, and lo! I&apos;m but a sapless weed.
+</lg>
+
+<pb n=88>
+
+
+<div2 id=s103 n=CIII>
+<head>CIII</head>
+
+<lg>
+<l>O Rabbi, curse us not if we have been
+<l>Nursed in the shadow of the Gate of Sin
+    <l rend="indent(2)">Built by thy hand&mdash;yea, ev&apos;n thine angels blink
+<l>When we are coming out and going in.
+</lg>
+
+
+<div2 id=s104 n=CIV>
+<head>CIV</head>
+
+<lg>
+<l>And like the dead of Ind I do not fear
+<l>To go to thee in flames; the most austere
+    <l rend="indent(2)">Angel of fire a softer tooth and tongue
+<l>Hath he than dreadful Munker and Nakir.
+</lg>
+
+<pb n=89>
+
+
+<div2 id=s105 n=CV>
+<head>CV</head>
+
+<lg>
+<l>Now, at this end of Adam&apos;s line I stand
+<l>Holding my father&apos;s life-curse in my hand,
+    <l rend="indent(2)">Doing no one the wrong that he did me:&mdash;
+<l>Ah, would that he were barren as the sand!
+</lg>
+
+
+<div2 id=s106 n=CVI>
+<head>CVI</head>
+
+<lg>
+<l>Ay, thus thy children, though they sovereigns be,
+<l>When truth upon them dawns, will turn on thee,
+    <l rend="indent(2)">Who cast them into life&apos;s dark labyrinth
+<l>Where even old Izrail can not see.
+</lg>
+
+<pb n=90>
+
+
+<div2 id=s107 n=CVII>
+<head>CVII</head>
+
+<lg>
+<l>And in the labyrinth both son and sire
+<l>Awhile will fan and fuel hatred&apos;s fire;
+    <l rend="indent(2)">Sparks of the log of evil are all men
+<l>Allwhere&mdash;extinguished be the race entire!
+</lg>
+
+
+<div2 id=s108 n=CVIII>
+<head>CVIII</head>
+
+<lg>
+<l>If miracles were wrought in ancient years,
+<l>Why not to-day, O Heaven-cradled seers?
+    <l rend="indent(2)">The highway&apos;s strewn with dead, the lepers weep,
+<l>If ye but knew,&mdash;if ye but saw their tears!
+</lg>
+
+<pb n=91>
+
+
+<div2 id=s109 n=CIX>
+<head>CIX</head>
+
+<lg>
+<l>Fan thou a lisping fire and it will leap
+<l>In flames, but dost thou fan an ashy heap?
+    <l rend="indent(2)">They would respond, indeed, whom thou dost call,
+<l>Were they not dead, alas! or dead asleep.
+</lg>
+
+
+<div2 id=s110 n=CX>
+<head>CX</head>
+
+<lg>
+<l>The way of vice is open as the sky,
+<l>The way of virtue&apos;s like the needle&apos;s eye;
+    <l rend="indent(2)">But whether here or there, the eager Soul
+<l>Has only two Companions&mdash;Whence and Why.
+</lg>
+
+<pb n=92>
+
+
+<div2 id=s111 n=CXI>
+<head>CXI</head>
+
+<lg>
+<l>Whence come, O firmament, thy myriad lights?
+<l>Whence comes thy sap, O vineyard of the heights?
+    <l rend="indent(2)">Whence comes the perfume of the rose, and whence
+<l>The spirit-larva which the body blights?
+</lg>
+
+
+<div2 id=s112 n=CXII>
+<head>CXII</head>
+
+<lg>
+<l>Whence does the nettle get its bitter sting?
+<l>Whence do the honey bees their honey bring?
+    <l rend="indent(2)">Whence our Companions, too&mdash;our Whence and Why?
+<l>O Soul, I do not know a single thing!
+</lg>
+
+<pb n=93>
+
+
+<div2 id=s113 n=CXIII>
+<head>CXIII</head>
+
+<lg>
+<l>How many like us in the ages past
+<l>Have blindly soared, though like a pebble cast,
+    <l rend="indent(2)">Seeking the veil of mystery to tear,
+<l>But fell accurst beneath the burning blast?
+</lg>
+
+
+<div2 id=s114 n=CXIV>
+<head>CXIV</head>
+
+<lg>
+<l>Why try to con the book of earth and sky,
+<l>Why seek the truth which neither you nor I
+    <l rend="indent(2)">Can grasp? But Death methinks the secret keeps,
+<l>And will impart it to us by and by.
+</lg>
+
+<pb n=94>
+
+
+<div2 id=s115 n=CXV>
+<head>CXV</head>
+
+<lg>
+<l>The Sultan, too, relinquishing his throne
+<l>Must wayfare through the darkening dust alone
+    <l rend="indent(2)">Where neither crown nor kingdom be, and he,
+<l>Part of the Secret, here and there is blown.
+</lg>
+
+
+<div2 id=s116 n=CXVI>
+<head>CXVI</head>
+
+<lg>
+<l>To clay the mighty Sultan must return
+<l>And, chancing, help a praying slave to burn
+    <l rend="indent(2)">His midnight oil before the face of Him,
+<l>Who of the Sultan makes an incense urn.
+</lg>
+
+<pb n=95>
+
+
+<div2 id=s117 n=CXVII>
+<head>CXVII</head>
+
+<lg>
+<l>Turned to a cup, who once the sword of state
+<l>Held o&apos;er the head of slave and potentate,
+    <l rend="indent(2)">Is now held in the tippler&apos;s trembling hand,
+<l>Or smashed upon the tavern-floor of Fate.
+</lg>
+
+
+<div2 id=s118 n=CXVIII>
+<head>CXVIII</head>
+
+<lg>
+<l>For this I say, Be watchful of the Cage
+<l>Of chance; it opes alike to fool and sage;
+    <l rend="indent(2)">Spy on the moment, for to-morrow&apos;ll be,
+<l>Like yesterday, an obliterated page.
+</lg>
+
+<pb n=96>
+
+
+<div2 id=s119 n=CXIX>
+<head>CXIX</head>
+
+<lg>
+<l>Yea, kiss the rosy cheeks of new-born Day,
+<l>And hail eternity in every ray
+    <l rend="indent(2)">Forming a halo round its infant head,
+<l>Illumining thy labyrinthine way.
+</lg>
+
+
+<div2 id=s120 n=CXX>
+<head>CXX</head>
+
+<lg>
+<l>But I, the thrice-imprisoned, try to troll
+<l>Strains of the song of night, which fill with dole
+    <l rend="indent(2)">My blindness, my confinement, and my flesh&mdash;
+<l>The sordid habitation of my soul.
+</lg>
+
+
+<div2 id=s121 n=CXXI>
+<head>CXXI</head>
+
+<lg>
+<l>Howbeit, my inner vision heir shall be
+<l>To the increasing flames of mystery
+    <l rend="indent(2)">Which may illumine yet my prisons all,
+<l>And crown the ever living hope of me.
+</lg>
+
+
+
+
+<pb n=97>
+<div1 id=notes type=Notes>
+<head>NOTES TO THE QUATRAINS</head>
+
+<div2 n=I>
+<head><ref target=s1>I</ref></head>
+
+<p>To open a poem with a few amatory lines, is a literary tradition among Arab poets. But Abu&apos;l-Ala, having had no occasion to evince such tender emotions, whether real or merely academic, succeeded, as in everything else he did, in deviating from the trodden path. I find, however, in his minor Diwan, <hi>Suct uz-Zand</hi><corr sic=.>,</corr> a slight manifestation of his youthful ardor, of which this and the succeeding quatrains, descriptive of the charms of Night, are fairly representative.
+
+
+<div2 n=III>
+<head><ref target=s3>III</ref></head>
+
+<p>&ldquo;Ahmad,&rdquo; Mohammed the Prophet.
+
+
+<div2 n=IV>
+<head><ref target=s4>IV</ref></head>
+
+<p>&ldquo;And hear the others who with cymbals try,&rdquo; etc., meaning the Christians; in the preceding quatrain he referred to the Mohammedans.
+
+
+<div2 n=VII>
+<head><ref target=s7>VII</ref></head>
+
+<p>Milton, in Il Penseroso, also speaks of night as &ldquo;the starred Ethiop queen&rdquo;; and Shakespeare, in Romeo and Juliet, has these lines:
+
+<lg>
+    <l>&ldquo;Her beauty hangs upon the cheek of night
+    <l>As a rich jewel in an Ethiop ear.&rdquo;
+</lg>
+
+<p>The source of inspiration is the same to all world-poets, who only differ sometimes in the jars they bring to the source.
+
+
+<pb n=98>
+<div2 n=XIII>
+<head><ref target=s13>XIII</ref></head>
+
+<p>The purple, white, and gray garments, symbolizing Man&apos;s dreams of power, of love, and of bliss.
+
+
+<div2 n=XIV>
+<head><ref target=s14>XIV</ref></head>
+
+<p>The same idea is expressed by Omar Khayyam. Here are the first three lines of the 122nd quatrain of Heron-Allen&apos;s literal translation:
+
+<lg>
+    <l>&ldquo;To him who understands the mysteries of the world
+    <l>The joy and sorrow of the world is all the same,
+    <l>Since the good and the bad of the world all come to an end.&rdquo;
+</lg>
+
+<p>&ldquo;Howdaj,&rdquo; a sort of palanquin borne by camels; hence, a wedding or a triumphal procession.
+
+
+<div2 n=XVII>
+<head><ref target=s17>XVII</ref></head>
+
+<p>&ldquo;Thamud&rdquo; and &ldquo;&apos;Ad,&rdquo; two of the primitive tribes which figure prominently in the legendary history of Arabia. They flouted and stoned the prophets that were sent to them, and are constantly held up in the Koran as terrible examples of the pride that goeth before destruction.
+
+<p>&ldquo;Hashem&apos;s fearless lad,&rdquo; Mohammed the Prophet.
+
+
+<div2 n=XVIII>
+<head><ref target=s18>XVIII</ref></head>
+
+<p>I quote again from Omar, Fitzgerald&apos;s translation:
+
+<lg>
+    <l>&ldquo;And this reviving Herb, whose Tender Green
+    <l>Fledges the River-Lip, on which we lean&mdash;
+        <l rend="indent(2)">Ah, lean upon it lightly! for who knows
+    <l>From what once lovely Lip it springs unseen.&rdquo;
+</lg>
+
+<p>In justice to both the Persian and the Arab poet, however, I give the 43d quatrain of Heron-Allen&apos;s, which I think contains two lines of that of Fitzgerald, together with Abu&apos;l-Ala&apos;s own poetic-fancy.
+
+<pb n=99>
+
+<lg>
+    <l>&ldquo;Everywhere that there has been a rose or tulip bed
+    <l>There has been spilled the crimson blood of a king;
+    <l>Every violet shoot that grows from the earth
+    <l>Is a mole that was once upon the cheek of beauty.&rdquo;
+</lg>
+
+
+<div2 n=XX>
+<head><ref target=s20>XX</ref></head>
+
+<p>&ldquo;Zakkum,&rdquo; a tree which, in Mohammedan mythology, is said to have its roots in hell, and from which are fed the dwellers of hell-fire. In one of the Chapters of the Koran, The Saffat, I find this upon it: &ldquo;And is that a pure bounty, or the Zakkum tree? It is a tree which groweth in hell; its fruits are like unto the heads of the devils, who eat from it, and from it fill their stomachs.&rdquo;
+
+<p>Zakkum is also one of the bitter-fruited trees of Arabia. And the people there speak of &ldquo;a mouthful of zakkum&rdquo; when they want to describe an unhappy experience. It is also the name of one of the plants of the desert, whose flower is like the jasmine; and of one of the trees of Jericho, whose fruit is like the date, but somewhat bitter.
+
+
+<div2 n=XXIII>
+<head><ref target=s23>XXIII</ref></head>
+
+<p>&ldquo;Jannat,&rdquo; Paradise. &ldquo;Juhannam,&rdquo; Hell.
+
+
+<div2 n=XXIX>
+<head><ref target=s29>XXIX</ref></head>
+
+<p>And Tennyson also says:
+
+<lg>
+    <l>&ldquo;There is more truth in honest doubt,
+    <l>Believe me, than in all the creeds.&rdquo;
+</lg>
+
+
+<div2 n=XXXI>
+<head><ref target=s31>XXXI</ref></head>
+
+<p>&ldquo;Mutakallem,&rdquo; disputant. The <hi>mutakallemin</hi> are the logicians and theologians of Islam.
+
+<pb n=100>
+
+
+<div2 n=XXXIII>
+<head><ref target=s33>XXXIII</ref></head>
+
+<p>Hadil is a poetic term for dove. And in Arabic mythology it is the name of a particular dove, which died of thirst in the days of Noah, and is bemoaned until this day.
+
+<p>&ldquo;Ababil,&rdquo; a flock of birds, who scourged with flint-stones which they carried in their beaks, one of the ancient Arab tribes, noted for its idolatry and evil practices.
+
+
+<div2>
+<head><ref target=s38>XXXVIII</ref>, <ref target=s93>XCIII</ref> and <ref target=s94>XCIV</ref></head>
+
+<p>I quote again from Omar, Fitzgerald&apos;s version, quatrain 44:
+
+<lg>
+    <l>&ldquo;Why, if the Soul can fling the dust aside,
+    <l>And naked on the air of Heaven ride,
+        <l rend="indent(2)">Were&apos;t not a shame&mdash;were&apos;t not a shame for him
+    <l>In this clay carcass crippled to abide?&rdquo;
+</lg>
+
+<p>And from Heron-Allen&apos;s, quatrain 145:
+
+<lg>
+    <l>&ldquo;O Soul, if thou canst purify thyself from the dust of the clay,
+    <l>Thou, naked spirit, canst soar in the heav&apos;ns,
+    <l>The Empyrian is thy sphere&mdash;let it be thy shame
+    <l>That thou comest and art a dweller within the confines of earth.&rdquo;
+</lg>
+
+
+<div2 n=XLVIII>
+<head><ref target=s48>XLVIII</ref></head>
+
+<p>&ldquo;The walking dust was once a thing of stone,&rdquo; is my rendering of the line,
+
+<lg>
+    <l>&ldquo;And he concerning whom the world is puzzled
+    <l>Is an animal evolved of inorganic matter.&rdquo;
+</lg>
+
+<p>This line of Abu&apos;l-Ala is much quoted by his enthusiastic admirers of the present day to prove <pb n=101>that he anticipated Darwin&apos;s theory of evolution. And it is remarkable how the fancy of the poet sometimes coincides with the logical conclusions of the scientist.
+
+
+<div2 n=XLIX>
+<head><ref target=s49>XLIX</ref></head>
+
+<p>&ldquo;Iblis,&rdquo; the devil.
+
+
+<div2 n=L>
+<head><ref target=s50>L</ref></head>
+
+<p>&ldquo;Rabbi,&rdquo; my lord God.
+
+
+<div2 n=LVI>
+<head><ref target=s56>LVI</ref></head>
+
+<p>This quatrain is quoted by many of the Biographers of Abu&apos;l-Ala to prove that he is a materialist. Which argument is easily refuted, however, with others quatrains taken at random from the Luzumiyat.
+
+
+<div2>
+<head><ref target=s57>LVII</ref>, <ref target=s58>LVIII</ref> and <ref target=s59>LIX</ref></head>
+
+<p>Omar was also a confessed cynical-hypocrite. Thus runs the first line of the 114th quatrain of Heron-Allen&apos;s:
+
+<lg>
+    <l>&ldquo;The world being fleeting I practise naught but artifice.&rdquo;
+</lg>
+
+<p>And he also chafes in the chains of his sins. Following is the 23d quatrain of the same translation:
+
+<lg>
+    <l>&ldquo;Khayyam, why mourn for thy sins?
+    <l>From grieving thus what advantage more or less dost thou gain?
+    <l>Mercy was never for him who sins not,
+    <l>Mercy is granted for sins; why then grieve?&rdquo;
+</lg>
+
+<p>Abu&apos;l-Ala, in a quatrain which I did not translate, goes even farther in his questioning perplexity. <pb n=102>&ldquo;Why do good since thou art to be forgiven for thy sins?&rdquo; he asks.
+
+
+<div2 n=LXII>
+<head><ref target=s62>LXII</ref></head>
+
+<p>&ldquo;Kaaba Stone,&rdquo; the sacred black stone in the Kaaba at Meccah.
+
+
+<div2 n=LXXVII>
+<head><ref target=s77>LXXVII</ref></head>
+
+<p>The American poet, Lowell, in &ldquo;The Crisis,&rdquo; utters the same cry:
+
+<lg>
+    <l>&ldquo;Truth forever on the scaffold,
+    <l>Wrong forever on the throne.&rdquo;
+</lg>
+
+
+<div2 n=XC>
+<head><ref target=s90>XC</ref></head>
+
+<lg>
+    <l>&ldquo;And the poor beetle that we tread upon
+    <l>In corporal sufferance finds a pang as great
+    <l>As when a giant dies.&rdquo;
+</lg>
+
+<p>&mdash;Shakespeare: Measure for Measure.
+
+<p>&ldquo;To let go a flea is a more virtuous act than to give a dirham to a beggar.&rdquo;&mdash;Abu&apos;l-Ala.
+
+
+<div2>
+<head><ref target=s93>XCIII</ref> and <ref target=s94>XCIV</ref></head>
+
+<p>Omar too, in the 157th quatrain of Heron-Allen&apos;s&mdash;
+
+<lg>
+    <l>&ldquo;Had I charge of the matter I would not have come,
+    <l>And likewise could I control my going, where could I go?&rdquo;
+</lg>
+
+
+<div2 n=XCV>
+<head><ref target=s95>XCV</ref></head>
+
+<p>&ldquo;Thy two soul-devouring angels,&rdquo; the angels of death and resurrection.
+
+<pb n=103>
+
+
+<div2 n=XCVI>
+<head><ref target=s96>XCVI</ref></head>
+
+<p>&ldquo;Nubakht,&rdquo; one of the opponents of the Prophet Mohammed.
+
+
+<div2 n=CIII>
+<head><ref target=s103>CIII</ref></head>
+
+<p>&ldquo;Rabbi,&rdquo; my lord God.
+
+
+<div2 n=CIV>
+<head><ref target=s104>CIV</ref></head>
+
+<p>&ldquo;And like the dead of Ind,&rdquo; referring to the practice of the Hindus who burn their dead.
+
+<p>&ldquo;Munker&rdquo; and &ldquo;Nakir,&rdquo; the two angels who on the Day of Judgment open the graves of the dead and cross-examine them&mdash;the process is said to be very cruel&mdash;as to their faith. Whosoever is found wanting in this is pushed back into the grave and thence thrown into Juhannam. No wonder Abu&apos;l-Ala prefers cremation.
+
+
+<div2 n=CV>
+<head><ref target=s105>CV</ref></head>
+
+<p>He wrote his own epitaph, which is:
+
+<lg>
+    <l>&ldquo;This wrong to me was by my father done,
+        <l rend="indent(2)">But never by me to any one.&rdquo;
+</lg>
+
+
+<div2 n=CVI>
+<head><ref target=s106>CVI</ref></head>
+
+<p>&ldquo;Izrail,&rdquo; the angel of death.
+
+
+<div2>
+<head><ref target=s115>CXV</ref>, <ref target=s116>CXVI</ref> and <ref target=s117>CXVII</ref></head>
+
+<p>These will suggest to the reader Shakespeare&apos;s lines:
+
+<lg>
+    <l>&ldquo;Imperial <corr sic=Ceasar>Caesar</corr>, dead and turned to clay,
+    <l>Might stop a hole to keep the wind away;
+    <l>O, that that earth, which kept the world in awe,
+    <l>Should stop a wall t&apos;expel the winter&apos;s flaw.&rdquo;
+</lg>
+
+<pb n=104>
+
+
+<div2 n=CXVIII>
+<head><ref target=s118>CXVIII</ref></head>
+
+<p>Compare this with Omar&apos;s:
+
+<lg>
+    <l>&ldquo;Thou hast no power over the morrow,
+    <l>And anxiety about the morrow is useless to thee:
+        <l rend="indent(2)">Waste not thou the moment, if thy heart is not mad,
+    <l>For the value of the remainder of thy life is not certain.&rdquo;
+</lg>
+
+
+
+<pb n=105>
+<div1 id=reviews type=Review>
+<head>PRESS AND PERSONAL NOTICES</head>
+
+
+<p>Mr. Rihani&apos;s book is soundly workmanlike, with adequate scholarship, and is often very felicitous. He has done a real service to modern understanding of an important though slightly known literature in presenting these selections with sufficient annotation.&mdash;New York Evening Sun.
+
+<milestone unit=tb>
+
+<p>The Luzumiyat. By Abu&apos;l-Ala. Born in Syria, in the tenth century A. D., this poet, scholar, teacher, philosopher and pessimist became known as &ldquo;the Voltaire of the East,&rdquo; and may well be read for the beauty of his work, even if there is little agreement with his general ideas of life.&mdash;The Christian Century.
+
+<milestone unit=tb>
+
+<p>Abu&apos;l-Ala is a true poet, with a philosophy much nobler than Omar&apos;s, and Mr. Rihani&apos;s translation has rare poetic qualities.&mdash;Edwin Markham.
+
+<milestone unit=tb>
+
+<lg>
+    <l>If I had but a garden for a bower
+    <l>Wherein the roses of Damascus flower,
+    <l>How happy, with the Luzumiyat in hand,
+    <l>To pass the afternoon and sunset hour!
+</lg>
+
+<p rend="class(signed)">Clinton Scollard.
+
+
+
+<pb n=106>
+
+<milestone unit=tb>
+
+<p>&ldquo;The Luzumiyat&rdquo; of Abu&apos;l-Ala, as rendered into English by Mr. Ameen Rihani, is more than a mere translation&mdash;it is excellent poetry. Aside from its interest as a literary curiosity, it possesses intrinsic value as literature of a high quality. The historical matter contained in the preface of the book, as well as the notes following the preface, will appeal to the scholar who makes a study of the best expressions of Oriental thought.&mdash;James B. Kenyon.
+
+<milestone unit=tb>
+
+<p>The first English rendition of the Luzumiyat of Abu&apos;l-Ala, comes from Ameen Rihani, the author of the Book of Khaled, who has selected the quatrains from three volumes of the works of the Syrian poet. For those who cling to a childish haze concerning Assyrians and Syrians, we would add that while the Assyrian comes down like a wolf on the fold, the Syrian, at least this particular one, has a tread like Omar Khayyam. Therein lies the chief interest of the Luzumiyat, unfair as it may be, in view of the fact that Abu&apos;l-Ala died at about the time Omar was born. So marked and far-reaching is the resemblance, that we might almost bring ourselves to the belief that in Omar Khayyam was recreated the soul of Abu&apos;l-Ala, with subtle changes, notable among them the casting off of the tenets of prohibition, and a substitution of fatalism for stoicism.&mdash;The Sun (New York).
+
+<pb n=107>
+
+<milestone unit=tb>
+
+<p>What Fitzgerald did for the Man of Neishapur in his wonderful version of the Rubaiyat, Mr. Rihani has done, in scarcely inferior measure, for his own remote ancestor Abu&apos;l-Ala. Mr. Rihani, who is a poet and essayist in English as well as in Arabic, has made a permanent addition to Literature. The Luzumiyat can not be displaced.&mdash;Michael Monahan.
+
+<milestone unit=tb>
+
+<p>Mr. Rihani has rendered valuable service to Literature in making the career of &ldquo;The Lucretius of Islam,&rdquo; as he happily calls him, known to the general reader in the English-speaking world.... The similarity of the Luzumiyat to Omar Khayyam under certain aspects, should win for Rihani&apos;s brilliant rendering a generous measure of recognition. As it is, the rare merits of the book, the critical power of the preface, the skill and sincere feeling exhibited in the verse, and the wide knowledge of English Literature shown in the notes, make it, to my mind, a little masterpiece.&mdash;Percy White.
+
+<milestone unit=tb>
+
+<p>The similarity in some parts of the Luzumiyat to Omar Khayyam is striking. But Abu&apos;l-Ala, to my mind, is a greater poet, and he is at times so remarkably modern. I am glad to make his acquaintance through your excellent translation.&mdash;R. B. Cunninghame Graham.
+
+<pb n=108>
+
+<milestone unit=tb>
+
+<p>There is a compelling power in his attack on hypocrisy and quackery, in his recognition of the supremacy of reason and the human soul. Those who still fondly turn to the &ldquo;Rubaiyat&rdquo; for enjoyment will surely find stimulus, too, and pleasure in these ruthless rhymes.&mdash;Asia.
+
+
+
+<back id=backmatter>
+
+
+<divGen type=toc id=toc>
+
+<divGen type=Colophon>
+
+
+</back>
+</text>
+</TEI.2>
+
+<!--
+
+CHECKLIST (X = done; / = not applicable)
+
+Initial cleanup
+
+[ ] Check all pb-tags, and join lines
+[ ] Move all footnotes in-line
+[ ] Tag headers
+[X] Fix all [** Proofer comments]
+[ ] Start all paragraphs with the p-tag
+[ ] Change b, sc, g tags to hi tags with correct attributes.
+[ ] Change tb tags to milestone tags.
+[ ] Fix multiple spaces in a row
+[ ] Verify all paragraphs start with p-tag, also those starting with a tag.
+
+TEI header
+
+[ ] Add TEI header.
+[ ] Fill in details in TEI header
+[ ] Verify Author dates and add to TEI header.
+[ ] Document on-line scan sources.
+[ ] Fill in description in noteStmt.
+[ ] Fill in keywords / Subjects
+[ ] Add auto-generated colophon divGen tag.
+[ ] Fill in reference to LOC record (http://catalog.loc.gov/).
+[ ] Fill in reference to OpenLibrary record (http://openlibrary.org).
+[ ] Fill in reference to WorldCat record (source and work) (http://www.worldcat.org).
+[ ] Generate unique epub-id. (http://www.guidgenerator.com/)
+
+Verse
+
+[ ] Tag all verse.
+[ ] Apply proper indentation: rend=&ldquo;indent(2)&rdquo;
+
+Lists
+
+[ ] Tag all lists.
+
+Tables
+
+[ ] Format tables
+[ ] Apply ditto-tags.
+
+Table of Contents
+
+[ ] Format table(s) of contents
+[ ] Link entries in table of contents
+[ ] Verify each link
+[ ] Compare with generated table of contents
+
+Images
+
+[ ] Include all illustrations
+[ ] Verify positioning of images makes sense.
+
+Spelling
+
+[ ] Verify generated wordlist
+[ ] Tag language usage
+
+Tools
+
+[ ] Verify Gutcheck
+[ ] Verify jeebees
+
+Miscellany
+
+[ ] Check for [Greek: ...] notation
+[ ] Curlify quotes
+[ ] Check for wrong quotes
+[ ] Disambiguate single quotes, apostrophes, and primes.
+[ ] Unwrap lines
+[ ] Check for lines not unwrapped
+[ ] Verify sequence of page-numbers
+[ ] Handle fractions, such as 1/2.  ([0-9])\&ndash;([0-9])/([0-9]) becomes \1\&frac\2\3;
+[ ] Converted all fragments in uppercase to mixed case.
+
+Text Version
+
+[ ] Remove FIGURE notations
+[ ] Verify empty lines between chapter headings
+[ ] Verify empty lines around poetry and lists
+[ ] Center poetry
+[ ] Format title page
+[ ] Remove Ads
+[ ] Format Tables
+[ ] Verify Greek and other transliterations
+
+Additional Checks and Edits (Add as needed for a specific book)
+
+[ ] ....
+
+Post-Posting
+
+[ ] Update status to 1.0 (i.e. Posted).
+[ ] Include PG number and posting date in metadata
+
+-->
