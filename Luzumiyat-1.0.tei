@@ -4,9 +4,9 @@
 <fileDesc>
 <titleStmt>
 <title>The Luzumiyat of Abu&apos;l-Ala</title>
-<author key="Al-Maarri, Abu&apos;l-Ala" ref="https://viaf.org/viaf/68941158">Abu&apos;l-Ala Al-Maarri (973&ndash;1057)</author>
-<respStmt><resp>Translation</resp> <name key="Rihani, Ameen Fares" ref="https://viaf.org/viaf/17374300">Ameen Fares Rihani (1876&ndash;1940)</name></respStmt>
-<respStmt><resp>Transcription</resp> <name>Jeroen Hellingman</name></respStmt>
+<author key="Al-Maarri, Abu&apos;l-Ala" ref="https://viaf.org/viaf/68941158/">Abu&apos;l-Ala Al-Maarri (973&ndash;1057)</author>
+<respStmt><resp>Translation</resp> <name key="Rihani, Ameen Fares" ref="https://viaf.org/viaf/17374300/">Ameen Fares Rihani (1876&ndash;1940)</name></respStmt>
+<respStmt><resp>Transcription</resp> <name key="Hellingman, Jeroen">Jeroen Hellingman</name></respStmt>
 </titleStmt>
 <publicationStmt>
 <publisher>Project Gutenberg</publisher>
@@ -27,7 +27,7 @@
 
 <p>This digital edition is dedicated to the people of Syria, in the hope that the seeds of rationality will once again find a fertile soil in your country.
 
-<p>This eBook is produced by the Online Distributed Proofreading Team at <xref url="http://www.pgdp.net/">www.pgdp.net</xref>.
+<p>This eBook is produced by the Online Distributed Proofreading Team at <xref url="https://www.pgdp.net/">www.pgdp.net</xref>.
 
 <p>Scans for this book are available from the Internet Archive (copy <xref url="https://archive.org/details/luzumiyatabulal00rihagoog">1</xref>).
 
@@ -51,11 +51,7 @@
 <profileDesc>
     <langUsage>
         <language id=en>English</language>
-        <language id=en-US>English (United States)</language>
-        <language id=en-UK>English (United Kingdom)</language>
-        <language id=de>German</language>
         <language id=fr>French</language>
-        <language id=la>Latin</language>
         <language id=ar-Latn>Arabic (Latin transcription)</language>
     </langUsage>
     <textClass>
@@ -2254,10 +2250,10 @@ TEI header
 [ ] Fill in description in noteStmt.
 [ ] Fill in keywords / Subjects
 [ ] Add auto-generated colophon divGen tag.
-[ ] Fill in reference to LOC record (http://catalog.loc.gov/).
-[ ] Fill in reference to OpenLibrary record (http://openlibrary.org).
-[ ] Fill in reference to WorldCat record (source and work) (http://www.worldcat.org).
-[ ] Generate unique epub-id. (http://www.guidgenerator.com/)
+[ ] Fill in reference to LOC record (https://catalog.loc.gov/).
+[ ] Fill in reference to OpenLibrary record (https://openlibrary.org).
+[ ] Fill in reference to WorldCat record (source and work) (https://www.worldcat.org).
+[ ] Generate unique epub-id. (https://www.guidgenerator.com/)
 
 Verse
 
